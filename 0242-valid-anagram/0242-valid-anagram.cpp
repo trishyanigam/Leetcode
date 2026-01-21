@@ -1,11 +1,11 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        if(s.length()!=t.length())
+        if(s.size()!=t.size())
         {
             return false;
         }
-        int alt[26]={0};
+        int alt[26] = {0};
         for(char c:s)
         {
             alt[c-'a']++;
