@@ -5,7 +5,7 @@ public:
         string word,res;
         while(ss>>word)
         {
-            res=word+" "+res;
+            res = word+" "+res;
         }
         if(!res.empty())
         {
