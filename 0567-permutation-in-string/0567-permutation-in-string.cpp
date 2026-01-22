@@ -1,37 +1,26 @@
 class Solution {
 public:
-    bool isPermutation(string s1,string word)
-    {
-        int arr[26] = {0};
-        for(char c:s1)
-        {
-            arr[c-'a']++;
-        }
-        for(char c:word)
-        {
-            arr[c-'a']--;
-        }
-        for(int i=0;i<26;i++)
-        {
-            if(arr[i]!=0)
-            {
-                return false;
-            }
-        }
-        return true;
-    }
     bool checkInclusion(string s1, string s2) {
-        int n1=s1.size();
-        int n2=s2.size();
+        int n1 = s1.size();
+        int n2 = s2.size();
         if(n1>n2)
         {
             return false;
         }
-        for(int i=0;i<=n2-n1;i++)
+        vector<int> f1(26,0);
+        vector<int> f2(26,0);
+        for(char c:s1)
         {
-            string word;
-            word=s2.substr(i,n1);
-            if(isPermutation(s1,word))
+            f1[c-'a']++;
+        }
+        for(int i=0;i<n2;i++)
+        {
+            f2[s2[i]-'a']++;
+            if(i>=n1)
+            {
+                f2[s2[i-n1]-'a']--;
+            }
+            if(f1==f2)
             {
                 return true;
             }
