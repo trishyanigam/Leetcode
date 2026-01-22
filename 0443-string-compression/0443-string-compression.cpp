@@ -27,6 +27,7 @@ public:
             }
             i--;
         }
+        chars.resize(idx);
         return idx;
     }
 };
