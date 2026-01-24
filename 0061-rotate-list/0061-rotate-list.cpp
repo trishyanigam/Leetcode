@@ -15,16 +15,16 @@ public:
         {
             return head;
         }
-        int len = 1;
         ListNode* tail = head;
+        int cnt = 1;
         while(tail->next!=NULL)
         {
             tail = tail->next;
-            len++;
+            cnt++;
         }
         tail->next = head;
-        k=k%len;
-        int moves = len-k;
+        k = k%cnt;
+        int moves = cnt-k;
         for(int i=1;i<moves;i++)
         {
             head = head->next;
