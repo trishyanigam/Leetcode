@@ -24,7 +24,7 @@ public:
         {
             ans = min(ans,root->val-prev);
         }
-        prev = root->val;
+        prev=root->val;
         helper(root->right);
     }
     int minDiffInBST(TreeNode* root) {
