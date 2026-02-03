@@ -25,7 +25,7 @@ public:
         {
             return false;
         }
-        return isSame(t1->left,t2->left) && isSame(t1->right,t2->right);
+        return isSame(t1->left,t2->left)&&isSame(t1->right,t2->right);
     }
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
         if(root==NULL)
@@ -36,6 +36,6 @@ public:
         {
             return true;
         }
-        return isSubtree(root->left,subRoot)||isSubtree(root->right,subRoot);
+        return isSubtree(root->left,subRoot) || isSubtree(root->right,subRoot);
     }
 };
