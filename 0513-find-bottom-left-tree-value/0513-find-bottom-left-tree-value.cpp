@@ -11,24 +11,25 @@
  */
 class Solution {
 public:
-    void helper(TreeNode* root,int level,vector<int>&res)
+    int ans;
+    int maxLevel = -1;
+    void helper(TreeNode* root,int level)
     {
         if(root==NULL)
         {
             return;
         }
-        if(res.size()==level)
+        if(level>maxLevel)
         {
-            res.push_back(root->val);
+            ans = root->val;
+            maxLevel = level;
         }
-        helper(root->left,level+1,res);
-        helper(root->right,level+1,res);
+        helper(root->left,level+1);
+        helper(root->right,level+1);
 
     }
     int findBottomLeftValue(TreeNode* root) {
-        vector<int> res;
-        helper(root,0,res);
-        int n=res.size();
-        return res[n-1];
+        helper(root,0);
+        return ans;
     }
 };
