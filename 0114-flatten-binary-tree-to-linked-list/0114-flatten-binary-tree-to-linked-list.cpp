@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    TreeNode* nxtRight=NULL;
+    TreeNode* connect=NULL;
     void flatten(TreeNode* root) {
         if(root==NULL)
         {
@@ -19,8 +19,8 @@ public:
         }
         flatten(root->right);
         flatten(root->left);
-        root->right=nxtRight;
         root->left=NULL;
-        nxtRight=root;
+        root->right=connect;
+        connect=root;
     }
 };
