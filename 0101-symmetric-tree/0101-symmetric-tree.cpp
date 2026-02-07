@@ -25,7 +25,7 @@ public:
         {
             return false;
         }
-        return isMirror(t1->left,t2->right) && isMirror(t1->right,t2->left);
+        return isMirror(t1->left,t2->right)&&isMirror(t1->right,t2->left);
     }
     bool isSymmetric(TreeNode* root) {
         if(root==NULL)
