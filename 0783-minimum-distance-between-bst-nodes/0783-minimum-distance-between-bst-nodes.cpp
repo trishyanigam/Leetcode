@@ -11,8 +11,8 @@
  */
 class Solution {
 public:
-    int ans = INT_MAX;
-    int prev = -1;
+    int ans=INT_MAX;
+    int prev=-1;
     void helper(TreeNode* root)
     {
         if(root==NULL)
@@ -22,7 +22,7 @@ public:
         helper(root->left);
         if(prev!=-1)
         {
-            ans = min(ans,root->val-prev);
+            ans=min(ans,root->val-prev);
         }
         prev=root->val;
         helper(root->right);
