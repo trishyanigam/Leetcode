@@ -13,11 +13,11 @@ class Solution {
 public:
     bool isMirror(TreeNode* t1,TreeNode* t2)
     {
-        if(t1==NULL && t2==NULL)
+        if(t1==NULL&&t2==NULL)
         {
             return true;
         }
-        if(t1==NULL || t2==NULL)
+        if(t1==NULL||t2==NULL)
         {
             return false;
         }
