@@ -11,9 +11,8 @@
  */
 class Solution {
 public:
-    int ans;
-    int maxLevel = -1;
-    void helper(TreeNode* root,int level)
+    int maxLevel=-1;
+    void helper(TreeNode* root,int level,int& ans)
     {
         if(root==NULL)
         {
@@ -21,15 +20,15 @@ public:
         }
         if(level>maxLevel)
         {
-            ans = root->val;
-            maxLevel = level;
+            maxLevel=level;
+            ans=root->val;
         }
-        helper(root->left,level+1);
-        helper(root->right,level+1);
-
+        helper(root->left,level+1,ans);
+        helper(root->right,level+1,ans);
     }
     int findBottomLeftValue(TreeNode* root) {
-        helper(root,0);
+        int ans;
+        helper(root,0,ans);
         return ans;
     }
 };
