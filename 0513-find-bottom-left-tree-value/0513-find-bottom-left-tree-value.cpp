@@ -11,16 +11,16 @@
  */
 class Solution {
 public:
-    int maxLevel=-1;
+    int maxLvl=-1;
     void helper(TreeNode* root,int level,int& ans)
     {
         if(root==NULL)
         {
             return;
         }
-        if(level>maxLevel)
+        if(level>maxLvl)
         {
-            maxLevel=level;
+            maxLvl=level;
             ans=root->val;
         }
         helper(root->left,level+1,ans);
