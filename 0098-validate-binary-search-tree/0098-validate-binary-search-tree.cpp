@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    bool isValid(TreeNode* root,int minVal,int maxVal)
+    bool isValid(TreeNode* root,long long minVal,long long maxVal)
     {
         if(root==NULL)
         {
@@ -21,9 +21,9 @@ public:
         {
             return false;
         }
-        return isValid(root->left,minVal,root->val) && isValid(root->right,root->val,maxVal);
+        return isValid(root->left,minVal,root->val)&&isValid(root->right,root->val,maxVal);
     }
     bool isValidBST(TreeNode* root) {
-        return isValid(root,INT_MIN,INT_MAX);
+        return isValid(root,LONG_MIN,LONG_MAX);
     }
 };
