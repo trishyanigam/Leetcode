@@ -17,11 +17,11 @@ public:
         {
             return NULL;
         }
-        TreeNode* node = new TreeNode(preorder[idx]);
+        TreeNode* root = new TreeNode(preorder[idx]);
         idx++;
-        node->left = build(preorder,idx,node->val);
-        node->right = build(preorder,idx,bound);
-        return node;
+        root->left = build(preorder,idx,root->val);
+        root->right = build(preorder,idx,bound);
+        return root;
     }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
         int idx=0;
