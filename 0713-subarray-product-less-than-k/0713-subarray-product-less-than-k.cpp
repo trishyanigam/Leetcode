@@ -6,18 +6,18 @@ public:
             return 0;
         }
         int n=nums.size();
-        int left=0;
-        int pro=1;
         int cnt=0;
-        for(int right=0;right<n;right++)
+        int pro=1;
+        int left=0;
+        for(int r=0;r<n;r++)
         {
-            pro*=nums[right];
+            pro*=nums[r];
             while(pro>=k)
             {
                 pro/=nums[left];
                 left++;
             }
-            cnt+=right-left+1;
+            cnt+=r-left+1;
         }
         return cnt;
     }
