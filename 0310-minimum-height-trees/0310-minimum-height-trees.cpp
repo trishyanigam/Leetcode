@@ -29,20 +29,20 @@ public:
         while(rem>2)
         {
             int s=q.size();
-            rem-=s;
             for(int i=0;i<s;i++)
             {
                 int node=q.front();
-            q.pop();
-            for(int neigh:adj[node])
-            {
-                indeg[neigh]--;
-                if(indeg[neigh]==1)
+                q.pop();
+                for(int neigh:adj[node])
                 {
-                    q.push(neigh);
+                    indeg[neigh]--;
+                    if(indeg[neigh]==1)
+                    {
+                        q.push(neigh);
+                    }
                 }
             }
-            }
+            rem-=s;
         }
         while(!q.empty())
         {
