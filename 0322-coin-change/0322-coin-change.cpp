@@ -26,7 +26,7 @@ public:
     int coinChange(vector<int>& coins, int amount) {
         int n=coins.size();
         vector<vector<int>>dp(n,vector<int>(amount+1,-1));
-        int ans = helper(n-1,coins,amount,dp);
+        int ans=helper(n-1,coins,amount,dp);
         if(ans>=1e9)
         {
             return -1;
