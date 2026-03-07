@@ -11,7 +11,7 @@ public:
             {
                 if(nums[j]<nums[i])
                 {
-                    lis[i]=max(lis[i],1+lis[j]);
+                    lis[i]=max(lis[i],lis[j]+1);
                 }
             }
         }
@@ -22,19 +22,20 @@ public:
             {
                 if(nums[j]<nums[i])
                 {
-                    lds[i]=max(lds[i],1+lds[j]);
+                    lds[i]=max(lds[i],lds[j]+1);
                 }
             }
         }
 
-        int mountain=0;
+        int mount=0;
         for(int i=0;i<n;i++)
         {
             if(lis[i]>1 && lds[i]>1)
             {
-                mountain = max(mountain,lis[i]+lds[i]-1);
+                mount=max(mount,lis[i]+lds[i]-1);
             }
         }
-        return n-mountain;
+
+        return n-mount;
     }
 };
