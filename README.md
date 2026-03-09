@@ -134,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0191-number-of-1-bits](https://github.com/trishyanigam/Leetcode/tree/main/0191-number-of-1-bits/) | Easy |
+| [2220-minimum-bit-flips-to-convert-number](https://github.com/trishyanigam/Leetcode/tree/main/2220-minimum-bit-flips-to-convert-number/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
