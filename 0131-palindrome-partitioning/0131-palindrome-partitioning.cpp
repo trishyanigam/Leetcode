@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isPalindrome(int i,int j,string& s)
+    bool isPalindrome(int i,int j,string s)
     {
         while(i<j)
         {
@@ -13,11 +13,11 @@ public:
         }
         return true;
     }
-    void helper(int i,string& s,vector<string>&path,vector<vector<string>>&res)
+    void helper(int i,string& s,vector<string>&path,vector<vector<string>>& ans)
     {
         if(i==s.size())
         {
-            res.push_back(path);
+            ans.push_back(path);
             return;
         }
         for(int j=i;j<s.size();j++)
@@ -25,15 +25,15 @@ public:
             if(isPalindrome(i,j,s))
             {
                 path.push_back(s.substr(i,j-i+1));
-                helper(j+1,s,path,res);
+                helper(j+1,s,path,ans);
                 path.pop_back();
             }
         }
     }
     vector<vector<string>> partition(string s) {
-        vector<vector<string>>res;
-        vector<string>path;
-        helper(0,s,path,res);
-        return res;
+        vector<vector<string>> ans;
+        vector<string> path;
+        helper(0,s,path,ans);
+        return ans;
     }
 };
