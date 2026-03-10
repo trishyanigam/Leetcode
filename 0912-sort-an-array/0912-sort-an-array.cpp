@@ -1,23 +1,53 @@
 class Solution {
 public:
-    vector<int> sortArray(vector<int>& nums) {
-        unordered_map<int,int>mp;
-        for(int n:nums)
+    void merge(int l,int mid,int r,vector<int>&nums)
+    {
+        int i=l;
+        int j=mid+1;
+        vector<int>temp;
+        while(i<=mid && j<=r)
         {
-            mp[n]++;
-        }
-        int mini = *min_element(nums.begin(),nums.end());
-        int maxi = *max_element(nums.begin(),nums.end());
-        int i=0;
-        for(int range=mini;range<=maxi;range++)
-        {
-            while(mp[range]>0)
+            if(nums[i]<=nums[j])
             {
-                nums[i]=range;
+                temp.push_back(nums[i]);
                 i++;
-                mp[range]--;
+            }
+            else
+            {
+                temp.push_back(nums[j]);
+                j++;
             }
         }
+        while(i<=mid)
+        {
+            temp.push_back(nums[i]);
+            i++;
+        }
+        while(j<=r)
+        {
+            temp.push_back(nums[j]);
+            j++;
+        }
+        for(int k=l;k<=r;k++)
+        {
+            nums[k]=temp[k-l];
+        }
+    }
+    void mergeSort(int l,int r,vector<int>&nums)
+    {
+        if(l>=r)
+        {
+            return;
+        }
+
+        int mid=(l+r)/2;
+        mergeSort(l,mid,nums);
+        mergeSort(mid+1,r,nums);
+        merge(l,mid,r,nums);
+    }
+    vector<int> sortArray(vector<int>& nums) {
+        int n = nums.size();
+        mergeSort(0,n-1,nums);
         return nums;
     }
 };
