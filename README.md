@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/trishyanigam/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/trishyanigam/Leetcode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/trishyanigam/Leetcode/tree/main/1143-longest-common-subsequence/) | Medium |
+| [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/trishyanigam/Leetcode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/trishyanigam/Leetcode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/trishyanigam/Leetcode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/trishyanigam/Leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/trishyanigam/Leetcode/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/trishyanigam/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/trishyanigam/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
+| [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/trishyanigam/Leetcode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/trishyanigam/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
