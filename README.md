@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0983-minimum-cost-for-tickets](https://github.com/trishyanigam/Leetcode/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/trishyanigam/Leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/trishyanigam/Leetcode/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/trishyanigam/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/trishyanigam/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/trishyanigam/Leetcode/tree/main/2596-check-knight-tour-configuration/) | Medium |
@@ -119,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/trishyanigam/Leetcode/tree/main/0037-sudoku-solver/) | Hard |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/trishyanigam/Leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/trishyanigam/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/trishyanigam/Leetcode/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## Greedy
@@ -128,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/trishyanigam/Leetcode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0455-assign-cookies](https://github.com/trishyanigam/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/trishyanigam/Leetcode/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/trishyanigam/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/trishyanigam/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/trishyanigam/Leetcode/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Math
@@ -186,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0455-assign-cookies](https://github.com/trishyanigam/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/trishyanigam/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
