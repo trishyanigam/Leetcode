@@ -7,7 +7,7 @@ public:
         {
             if(st.find(n-1)==st.end())
             {
-                int curr = n;
+                int curr=n;
                 int cnt=1;
                 while(st.find(curr+1)!=st.end())
                 {
@@ -19,4 +19,4 @@ public:
         }
         return ans;
     }
-};
+};  
