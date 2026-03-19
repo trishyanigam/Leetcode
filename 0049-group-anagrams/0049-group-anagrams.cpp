@@ -10,7 +10,7 @@ public:
             {
                 freq[c-'a']++;
             }
-            string key="";
+            string key = "";
             for(int el:freq)
             {
                 key+=to_string(el)+'#';
