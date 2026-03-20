@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/trishyanigam/Leetcode/tree/main/0001-two-sum/) | Easy |
+| [0036-valid-sudoku](https://github.com/trishyanigam/Leetcode/tree/main/0036-valid-sudoku/) | Medium |
 | [0037-sudoku-solver](https://github.com/trishyanigam/Leetcode/tree/main/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/trishyanigam/Leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/trishyanigam/Leetcode/tree/main/0040-combination-sum-ii/) | Medium |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0036-valid-sudoku](https://github.com/trishyanigam/Leetcode/tree/main/0036-valid-sudoku/) | Medium |
 | [0037-sudoku-solver](https://github.com/trishyanigam/Leetcode/tree/main/0037-sudoku-solver/) | Hard |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/trishyanigam/Leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/trishyanigam/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -171,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/trishyanigam/Leetcode/tree/main/0001-two-sum/) | Easy |
+| [0036-valid-sudoku](https://github.com/trishyanigam/Leetcode/tree/main/0036-valid-sudoku/) | Medium |
 | [0037-sudoku-solver](https://github.com/trishyanigam/Leetcode/tree/main/0037-sudoku-solver/) | Hard |
 | [0049-group-anagrams](https://github.com/trishyanigam/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/trishyanigam/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
