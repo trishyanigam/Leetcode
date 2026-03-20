@@ -1,12 +1,12 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        vector<set<char>>rows(9),cols(9),boxes(9);
+        vector<set<char>> rows(9),cols(9),boxes(9);
         for(int i=0;i<9;i++)
         {
             for(int j=0;j<9;j++)
             {
-                char val = board[i][j];
+                int val = board[i][j];
                 if(val=='.')
                 {
                     continue;
