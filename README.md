@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/trishyanigam/Leetcode/tree/main/0001-two-sum/) | Easy |
+| [0015-3sum](https://github.com/trishyanigam/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0036-valid-sudoku](https://github.com/trishyanigam/Leetcode/tree/main/0036-valid-sudoku/) | Medium |
 | [0037-sudoku-solver](https://github.com/trishyanigam/Leetcode/tree/main/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/trishyanigam/Leetcode/tree/main/0039-combination-sum/) | Medium |
@@ -219,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/trishyanigam/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/trishyanigam/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/trishyanigam/Leetcode/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/trishyanigam/Leetcode/tree/main/0242-valid-anagram/) | Easy |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/trishyanigam/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0125-valid-palindrome](https://github.com/trishyanigam/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/trishyanigam/Leetcode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0455-assign-cookies](https://github.com/trishyanigam/Leetcode/tree/main/0455-assign-cookies/) | Easy |
