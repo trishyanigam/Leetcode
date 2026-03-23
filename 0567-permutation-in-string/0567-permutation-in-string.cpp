@@ -1,8 +1,8 @@
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
-        int n1=s1.length();
-        int n2=s2.length();
+        int n1=s1.size();
+        int n2=s2.size();
         if(n1>n2)
         {
             return false;
