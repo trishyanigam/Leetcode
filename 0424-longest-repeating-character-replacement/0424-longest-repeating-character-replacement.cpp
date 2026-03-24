@@ -8,7 +8,7 @@ public:
         for(int r=0;r<s.size();r++)
         {
             freq[s[r]-'A']++;
-            maxFreq=max(maxFreq,freq[s[r]-'A']);
+            maxFreq = max(maxFreq,freq[s[r]-'A']);
             while((r-l+1-maxFreq)>k)
             {
                 freq[s[l]-'A']--;
