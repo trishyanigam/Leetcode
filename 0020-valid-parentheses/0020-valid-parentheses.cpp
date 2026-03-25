@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isValid(string s) {
-        stack<int> st;
+        stack<char>st;
         for(int i=0;i<s.size();i++)
         {
             if(s[i]=='(' || s[i]=='{' || s[i]=='[')
@@ -16,16 +16,13 @@ public:
                 }
                 else
                 {
-                    char ch=st.top();
+                    char ch = st.top();
                     st.pop();
-                    if(ch=='(' && s[i]==')' || ch=='{' && s[i]=='}' || ch=='[' && s[i]==']')
+                    if(s[i]==')'&&ch=='(' || s[i]==']'&&ch=='[' || s[i]=='}'&&ch=='{')
                     {
                         continue;
                     }
-                    else
-                    {
-                        return false;
-                    }
+                    return false;
                 }
             }
         }
