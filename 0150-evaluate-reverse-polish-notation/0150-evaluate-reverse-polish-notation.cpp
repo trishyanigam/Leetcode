@@ -1,7 +1,7 @@
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
-        stack<long long>st;
+        stack<long long >st;
         for(auto &token:tokens)
         {
             if(token=="+" || token=="-" || token=="*" || token=="/")
