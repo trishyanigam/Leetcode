@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/trishyanigam/Leetcode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0455-assign-cookies](https://github.com/trishyanigam/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/trishyanigam/Leetcode/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
+| [0739-daily-temperatures](https://github.com/trishyanigam/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/trishyanigam/Leetcode/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/trishyanigam/Leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -328,4 +329,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/trishyanigam/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0739-daily-temperatures](https://github.com/trishyanigam/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/trishyanigam/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 <!---LeetCode Topics End-->
