@@ -10,7 +10,7 @@ public:
             {
                 int idx=st.top();
                 st.pop();
-                ans[idx]=i-idx;
+                ans[idx] = i-idx;
             }
             st.push(i);
         }
