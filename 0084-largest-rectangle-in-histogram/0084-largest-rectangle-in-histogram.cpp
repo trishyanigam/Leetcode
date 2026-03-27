@@ -17,16 +17,14 @@ public:
             }
             else
             {
-                pse[i]=st.top();
+                pse[i] = st.top();
             }
             st.push(i);
         }
-
         while(!st.empty())
         {
             st.pop();
         }
-
         for(int i=n-1;i>=0;i--)
         {
             while(!st.empty() && heights[st.top()]>=heights[i])
@@ -39,18 +37,17 @@ public:
             }
             else
             {
-                nse[i]=st.top();
+                nse[i] = st.top();
             }
             st.push(i);
         }
-        
-        int ans = 0;
+        int ans=0;
         for(int i=0;i<n;i++)
         {
             int h = heights[i];
             int w = nse[i]-pse[i]-1;
             int ar = h*w;
-            ans = max(ans,ar);
+            ans=max(ans,ar);
         }
         return ans;
     }
