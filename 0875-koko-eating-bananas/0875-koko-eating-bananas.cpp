@@ -9,7 +9,7 @@ public:
         }
         return maxi;
     }
-    int calculate(vector<int>& piles,int val)
+    int calculate(vector<int>& piles,long long val)
     {
         int ans=0;
         for(int i=0;i<piles.size();i++)
@@ -24,7 +24,7 @@ public:
         while(low<=high)
         {
             int mid=(low+high)/2;
-            int tot = calculate(piles,mid);
+            long long tot = calculate(piles,mid);
             if(tot<=h)
             {
                 high=mid-1;
