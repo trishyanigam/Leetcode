@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/trishyanigam/Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0015-3sum](https://github.com/trishyanigam/Leetcode/tree/main/0015-3sum/) | Medium |
+| [0033-search-in-rotated-sorted-array](https://github.com/trishyanigam/Leetcode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0036-valid-sudoku](https://github.com/trishyanigam/Leetcode/tree/main/0036-valid-sudoku/) | Medium |
 | [0037-sudoku-solver](https://github.com/trishyanigam/Leetcode/tree/main/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/trishyanigam/Leetcode/tree/main/0039-combination-sum/) | Medium |
@@ -124,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/trishyanigam/Leetcode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/trishyanigam/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/trishyanigam/Leetcode/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/trishyanigam/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
