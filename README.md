@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3548-equal-sum-grid-partition-ii](https://github.com/trishyanigam/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/trishyanigam/Leetcode/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/trishyanigam/Leetcode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/trishyanigam/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/trishyanigam/Leetcode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -136,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2075-decode-the-slanted-ciphertext](https://github.com/trishyanigam/Leetcode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/trishyanigam/Leetcode/tree/main/2596-check-knight-tour-configuration/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/trishyanigam/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/trishyanigam/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -260,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0191-number-of-1-bits](https://github.com/trishyanigam/Leetcode/tree/main/0191-number-of-1-bits/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/trishyanigam/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/trishyanigam/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
