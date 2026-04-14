@@ -25,7 +25,7 @@ public:
         {
             return false;
         }
-        return helper(p->left,q->left)&&helper(p->right,q->right);
+        return helper(p->left,q->left) && helper(p->right,q->right);
     }
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
         if(root==NULL)
