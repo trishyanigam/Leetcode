@@ -17,12 +17,12 @@ public:
         {
             return 0;
         }
-        int lh = helper(root->left);
+        int lh=helper(root->left);
         if(lh==-1)
         {
             return -1;
         }
-        int rh = helper(root->right);
+        int rh=helper(root->right);
         if(rh==-1)
         {
             return -1;
