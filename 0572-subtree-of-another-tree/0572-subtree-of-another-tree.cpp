@@ -11,31 +11,31 @@
  */
 class Solution {
 public:
-    bool isSame(TreeNode* t1,TreeNode* t2)
+    bool helper(TreeNode* p,TreeNode* q)
     {
-        if(t1==NULL&&t2==NULL)
+        if(p==NULL&&q==NULL)
         {
             return true;
         }
-        if(t1==NULL||t2==NULL)
+        if(p==NULL || q==NULL)
         {
             return false;
         }
-        if(t1->val!=t2->val)
+        if(p->val!=q->val)
         {
             return false;
         }
-        return isSame(t1->left,t2->left)&&isSame(t1->right,t2->right);
+        return helper(p->left,q->left)&&helper(p->right,q->right);
     }
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
         if(root==NULL)
         {
             return false;
         }
-        if(isSame(root,subRoot))
+        if(helper(root,subRoot))
         {
             return true;
         }
-        return isSubtree(root->left,subRoot)||isSubtree(root->right,subRoot);
+        return isSubtree(root->left,subRoot) || isSubtree(root->right,subRoot);
     }
 };
