@@ -11,15 +11,15 @@
  */
 class Solution {
 public:
-    int ans=0;
+    int ans = 0;
     int helper(TreeNode* root)
     {
         if(root==NULL)
         {
             return 0;
         }
-        int lh=helper(root->left);
-        int rh=helper(root->right);
+        int lh = helper(root->left);
+        int rh = helper(root->right);
         ans=max(ans,lh+rh);
         return 1+max(lh,rh);
     }
