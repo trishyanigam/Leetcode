@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0226-invert-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
 | [0322-coin-change](https://github.com/trishyanigam/Leetcode/tree/main/0322-coin-change/) | Medium |
 | [2596-check-knight-tour-configuration](https://github.com/trishyanigam/Leetcode/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## String
@@ -239,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0096-unique-binary-search-trees](https://github.com/trishyanigam/Leetcode/tree/main/0096-unique-binary-search-trees/) | Medium |
+| [0226-invert-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -247,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0096-unique-binary-search-trees](https://github.com/trishyanigam/Leetcode/tree/main/0096-unique-binary-search-trees/) | Medium |
+| [0226-invert-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -303,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0226-invert-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
 | [2596-check-knight-tour-configuration](https://github.com/trishyanigam/Leetcode/tree/main/2596-check-knight-tour-configuration/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
