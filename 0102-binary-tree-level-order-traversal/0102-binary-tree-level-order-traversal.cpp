@@ -22,10 +22,10 @@ public:
         while(!q.empty())
         {
             int s=q.size();
-            vector<int>temp;
+            vector<int> temp;
             for(int i=0;i<s;i++)
             {
-                TreeNode* node=q.front();
+                TreeNode* node = q.front();
                 q.pop();
                 temp.push_back(node->val);
                 if(node->left)
