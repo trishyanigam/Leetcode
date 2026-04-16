@@ -11,11 +11,11 @@
  */
 class Solution {
 public:
-    int search(int l,int r, vector<int>& inorder,int val)
+    int search(int l,int r,vector<int>& inorder,int el)
     {
         for(int i=l;i<=r;i++)
         {
-            if(inorder[i]==val)
+            if(inorder[i]==el)
             {
                 return i;
             }
@@ -36,7 +36,7 @@ public:
         return root;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        int idx=0;
-        return helper(preorder,inorder,idx,0,preorder.size()-1);
+      int idx=0;
+      return helper(preorder,inorder,idx,0,preorder.size()-1);  
     }
 };
