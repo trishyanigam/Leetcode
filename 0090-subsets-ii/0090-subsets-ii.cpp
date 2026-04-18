@@ -1,26 +1,24 @@
 class Solution {
 public:
-    void helper(int i,int n,vector<int>&nums,vector<int>&temp,vector<vector<int>>&ans)
+    void helper(int st, vector<int>& nums,vector<int>& path,vector<vector<int>>& ans)
     {
-        ans.push_back(temp);
-
-        for(int j=i;j<n;j++)
+        ans.push_back(path);
+        for(int i=st;i<nums.size();i++)
         {
-            if(j>i && nums[j]==nums[j-1])
+            if(i>st && nums[i]==nums[i-1])
             {
                 continue;
             }
-            temp.push_back(nums[j]);
-            helper(j+1,n,nums,temp,ans);
-            temp.pop_back();
+            path.push_back(nums[i]);
+            helper(i+1,nums,path,ans);
+            path.pop_back();
         }
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         sort(nums.begin(),nums.end());
-        vector<vector<int>>ans;
-        vector<int>temp;
-        int n=nums.size();
-        helper(0,n,nums,temp,ans);
+        vector<vector<int>> ans;
+        vector<int> path;
+        helper(0,nums,path,ans);
         return ans;
     }
 };
