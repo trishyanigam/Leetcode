@@ -10,7 +10,6 @@ public:
             helper(i+1,nums,path);
             path.pop_back();
         }
-        
     }
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<int> path;
