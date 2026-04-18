@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void helper(int st, vector<int>& nums,vector<int>& path,vector<vector<int>>& ans)
+    void helper(int st,vector<int>& nums,vector<int>& path,vector<vector<int>>& ans)
     {
         ans.push_back(path);
         for(int i=st;i<nums.size();i++)
@@ -15,10 +15,10 @@ public:
         }
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        sort(nums.begin(),nums.end());
-        vector<vector<int>> ans;
-        vector<int> path;
-        helper(0,nums,path,ans);
-        return ans;
+       sort(nums.begin(),nums.end());
+       vector<vector<int>> ans;
+       vector<int> path;
+       helper(0,nums,path,ans); 
+       return ans;
     }
 };
