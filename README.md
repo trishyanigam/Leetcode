@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0022-generate-parentheses/) | Medium |
 | [0044-wildcard-matching](https://github.com/trishyanigam/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0096-unique-binary-search-trees](https://github.com/trishyanigam/Leetcode/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/trishyanigam/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -119,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/trishyanigam/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0020-valid-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
+| [0022-generate-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0022-generate-parentheses/) | Medium |
 | [0044-wildcard-matching](https://github.com/trishyanigam/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0049-group-anagrams](https://github.com/trishyanigam/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0125-valid-palindrome](https://github.com/trishyanigam/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
@@ -197,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0022-generate-parentheses/) | Medium |
 | [0037-sudoku-solver](https://github.com/trishyanigam/Leetcode/tree/main/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/trishyanigam/Leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/trishyanigam/Leetcode/tree/main/0040-combination-sum-ii/) | Medium |
