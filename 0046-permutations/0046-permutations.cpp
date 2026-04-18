@@ -1,8 +1,7 @@
 class Solution {
 public:
-    void helper(vector<int>& nums,vector<int>& path,vector<bool>&used,vector<vector<int>>& ans)
+    void helper(vector<int>& nums,int n,vector<int>& path,vector<bool>& used,vector<vector<int>>& ans)
     {
-        int n = nums.size();
         if(path.size()==n)
         {
             ans.push_back(path);
@@ -16,16 +15,17 @@ public:
             }
             used[i]=true;
             path.push_back(nums[i]);
-            helper(nums,path,used,ans);
+            helper(nums,n,path,used,ans);
             path.pop_back();
             used[i]=false;
         }
     }
     vector<vector<int>> permute(vector<int>& nums) {
+        int n = nums.size();
         vector<vector<int>> ans;
         vector<int> path;
-        vector<bool> used(nums.size(),false);
-        helper(nums,path,used,ans);
+        vector<bool> used(n,false);
+        helper(nums,n,path,used,ans);
         return ans;
     }
 };
