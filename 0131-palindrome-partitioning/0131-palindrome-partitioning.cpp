@@ -13,14 +13,15 @@ public:
         }
         return true;
     }
-    void helper(int st, string s,vector<string> &path,vector<vector<string>> &ans)
+    void helper(int st,string s,vector<string> &path,vector<vector<string>>& ans)
     {
-        if(st==s.size())
+        int n = s.size();
+        if(st==n)
         {
             ans.push_back(path);
             return;
         }
-        for(int i=st;i<s.size();i++)
+        for(int i=st;i<n;i++)
         {
             if(isPalindrome(st,i,s))
             {
