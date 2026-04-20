@@ -13,19 +13,19 @@ public:
         }
         return true;
     }
-    void helper(int i,string& s,vector<string>&path,vector<vector<string>>& ans)
+    void helper(int st, string s,vector<string> &path,vector<vector<string>> &ans)
     {
-        if(i==s.size())
+        if(st==s.size())
         {
             ans.push_back(path);
             return;
         }
-        for(int j=i;j<s.size();j++)
+        for(int i=st;i<s.size();i++)
         {
-            if(isPalindrome(i,j,s))
+            if(isPalindrome(st,i,s))
             {
-                path.push_back(s.substr(i,j-i+1));
-                helper(j+1,s,path,ans);
+                path.push_back(s.substr(st,i-st+1));
+                helper(i+1,s,path,ans);
                 path.pop_back();
             }
         }
