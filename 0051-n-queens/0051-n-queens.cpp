@@ -1,17 +1,17 @@
 class Solution {
 public:
-    bool isSafe(int r,int c,int n,vector<string>& board)
+    bool isSafe(int r,int c,int n,vector<string> &board)
     {
         for(int i=0;i<n;i++)
         {
-            if(board[r][i]=='Q')
+            if(board[i][c]=='Q')
             {
                 return false;
             }
         }
         for(int i=0;i<n;i++)
         {
-            if(board[i][c]=='Q')
+            if(board[r][i]=='Q')
             {
                 return false;
             }
@@ -39,19 +39,19 @@ public:
             ans.push_back({board});
             return;
         }
-        for(int i=0;i<n;i++)
+        for(int j=0;j<n;j++)
         {
-            if(isSafe(r,i,n,board))
+            if(isSafe(r,j,n,board))
             {
-                board[r][i]='Q';
+                board[r][j]='Q';
                 helper(r+1,n,board,ans);
-                board[r][i]='.';
+                board[r][j]='.';
             }
         }
     }
     vector<vector<string>> solveNQueens(int n) {
         vector<vector<string>> ans;
-        vector<string>board(n,string(n,'.'));
+        vector<string> board(n,string(n,'.'));
         helper(0,n,board,ans);
         return ans;
     }
