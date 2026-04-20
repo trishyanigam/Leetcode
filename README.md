@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/trishyanigam/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0051-n-queens](https://github.com/trishyanigam/Leetcode/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/trishyanigam/Leetcode/tree/main/0078-subsets/) | Medium |
+| [0079-word-search](https://github.com/trishyanigam/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/trishyanigam/Leetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0090-subsets-ii](https://github.com/trishyanigam/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/trishyanigam/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0022-generate-parentheses/) | Medium |
 | [0044-wildcard-matching](https://github.com/trishyanigam/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0049-group-anagrams](https://github.com/trishyanigam/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0079-word-search](https://github.com/trishyanigam/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0125-valid-palindrome](https://github.com/trishyanigam/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0131-palindrome-partitioning](https://github.com/trishyanigam/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0242-valid-anagram](https://github.com/trishyanigam/Leetcode/tree/main/0242-valid-anagram/) | Easy |
@@ -213,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/trishyanigam/Leetcode/tree/main/0046-permutations/) | Medium |
 | [0051-n-queens](https://github.com/trishyanigam/Leetcode/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/trishyanigam/Leetcode/tree/main/0078-subsets/) | Medium |
+| [0079-word-search](https://github.com/trishyanigam/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/trishyanigam/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/trishyanigam/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/trishyanigam/Leetcode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
@@ -222,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/trishyanigam/Leetcode/tree/main/0036-valid-sudoku/) | Medium |
 | [0037-sudoku-solver](https://github.com/trishyanigam/Leetcode/tree/main/0037-sudoku-solver/) | Hard |
+| [0079-word-search](https://github.com/trishyanigam/Leetcode/tree/main/0079-word-search/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/trishyanigam/Leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/trishyanigam/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/trishyanigam/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -365,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0079-word-search](https://github.com/trishyanigam/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0100-same-tree](https://github.com/trishyanigam/Leetcode/tree/main/0100-same-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/0110-balanced-binary-tree/) | Easy |
