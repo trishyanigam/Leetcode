@@ -15,14 +15,14 @@ public:
         {
             return -1;
         }
-        int curGas=0;
         int st=0;
+        int currGas=0;
         for(int i=0;i<gas.size();i++)
         {
-            curGas+=gas[i]-cost[i];
-            if(curGas<0)
+            currGas+=gas[i]-cost[i];
+            if(currGas<0)
             {
-                curGas=0;
+                currGas=0;
                 st=i+1;
             }
         }
