@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/trishyanigam/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/trishyanigam/Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
+| [1899-merge-triplets-to-form-target-triplet](https://github.com/trishyanigam/Leetcode/tree/main/1899-merge-triplets-to-form-target-triplet/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/trishyanigam/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/trishyanigam/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2463-minimum-total-distance-traveled](https://github.com/trishyanigam/Leetcode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
@@ -264,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0846-hand-of-straights](https://github.com/trishyanigam/Leetcode/tree/main/0846-hand-of-straights/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/trishyanigam/Leetcode/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/trishyanigam/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [1899-merge-triplets-to-form-target-triplet](https://github.com/trishyanigam/Leetcode/tree/main/1899-merge-triplets-to-form-target-triplet/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/trishyanigam/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/trishyanigam/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/trishyanigam/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
