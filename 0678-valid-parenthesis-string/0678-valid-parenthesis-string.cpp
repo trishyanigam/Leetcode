@@ -30,10 +30,6 @@ public:
                 return false;
             }
         }
-        if(low==0)
-        {
-            return true;
-        }
-        return false;
+        return (low==0);
     }
 };
