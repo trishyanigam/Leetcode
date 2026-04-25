@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0051-n-queens](https://github.com/trishyanigam/Leetcode/tree/main/0051-n-queens/) | Hard |
 | [0053-maximum-subarray](https://github.com/trishyanigam/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/trishyanigam/Leetcode/tree/main/0055-jump-game/) | Medium |
+| [0066-plus-one](https://github.com/trishyanigam/Leetcode/tree/main/0066-plus-one/) | Easy |
 | [0073-set-matrix-zeroes](https://github.com/trishyanigam/Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0078-subsets](https://github.com/trishyanigam/Leetcode/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/trishyanigam/Leetcode/tree/main/0079-word-search/) | Medium |
@@ -286,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/trishyanigam/Leetcode/tree/main/0002-add-two-numbers/) | Medium |
 | [0048-rotate-image](https://github.com/trishyanigam/Leetcode/tree/main/0048-rotate-image/) | Medium |
+| [0066-plus-one](https://github.com/trishyanigam/Leetcode/tree/main/0066-plus-one/) | Easy |
 | [0096-unique-binary-search-trees](https://github.com/trishyanigam/Leetcode/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/trishyanigam/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0202-happy-number](https://github.com/trishyanigam/Leetcode/tree/main/0202-happy-number/) | Easy |
