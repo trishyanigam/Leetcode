@@ -7,21 +7,23 @@ public:
         int n1=num1.length();
         int n2=num2.length();
         vector<int>res(n1+n2,0);
+
         for(int i=n1-1;i>=0;i--)
         {
             for(int j=n2-1;j>=0;j--)
             {
-                int mul = (num1[i]-'0')*(num2[j]-'0');
-                int sum = mul+res[i+j+1];
-                res[i+j+1] = sum%10;
-                res[i+j] += sum/10;
+                int mul=(num1[i]-'0')*(num2[j]-'0');
+                int sum=mul+res[i+j+1];
+                res[i+j+1]=sum%10;
+                res[i+j]+=sum/10;
             }
         }
-
         string ans="";
         for(int num:res)
         {
-            if(ans.empty() && num==0) continue;
+            if(ans.empty() && num==0)
+            continue;
+
             ans+=to_string(num);
         }
         return ans;
