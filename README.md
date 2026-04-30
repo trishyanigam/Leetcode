@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/trishyanigam/Leetcode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/trishyanigam/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1848-minimum-distance-to-the-target-element](https://github.com/trishyanigam/Leetcode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
+| [1851-minimum-interval-to-include-each-query](https://github.com/trishyanigam/Leetcode/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/trishyanigam/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/trishyanigam/Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -217,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0887-super-egg-drop](https://github.com/trishyanigam/Leetcode/tree/main/0887-super-egg-drop/) | Hard |
 | [0981-time-based-key-value-store](https://github.com/trishyanigam/Leetcode/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/trishyanigam/Leetcode/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
+| [1851-minimum-interval-to-include-each-query](https://github.com/trishyanigam/Leetcode/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/trishyanigam/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/trishyanigam/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/trishyanigam/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
@@ -464,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0853-car-fleet](https://github.com/trishyanigam/Leetcode/tree/main/0853-car-fleet/) | Medium |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/trishyanigam/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [1851-minimum-interval-to-include-each-query](https://github.com/trishyanigam/Leetcode/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/trishyanigam/Leetcode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/trishyanigam/Leetcode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
@@ -476,6 +479,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/trishyanigam/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
+| [1851-minimum-interval-to-include-each-query](https://github.com/trishyanigam/Leetcode/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/trishyanigam/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Merge Sort
@@ -583,4 +587,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/trishyanigam/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
+## Sweep Line
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1851-minimum-interval-to-include-each-query](https://github.com/trishyanigam/Leetcode/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 <!---LeetCode Topics End-->
