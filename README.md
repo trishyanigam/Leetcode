@@ -408,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/trishyanigam/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/trishyanigam/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [0190-reverse-bits](https://github.com/trishyanigam/Leetcode/tree/main/0190-reverse-bits/) | Easy |
 | [0191-number-of-1-bits](https://github.com/trishyanigam/Leetcode/tree/main/0191-number-of-1-bits/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/trishyanigam/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
@@ -420,6 +421,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/trishyanigam/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0136-single-number](https://github.com/trishyanigam/Leetcode/tree/main/0136-single-number/) | Easy |
 | [0137-single-number-ii](https://github.com/trishyanigam/Leetcode/tree/main/0137-single-number-ii/) | Medium |
+| [0190-reverse-bits](https://github.com/trishyanigam/Leetcode/tree/main/0190-reverse-bits/) | Easy |
 | [0191-number-of-1-bits](https://github.com/trishyanigam/Leetcode/tree/main/0191-number-of-1-bits/) | Easy |
 | [0260-single-number-iii](https://github.com/trishyanigam/Leetcode/tree/main/0260-single-number-iii/) | Medium |
 | [0338-counting-bits](https://github.com/trishyanigam/Leetcode/tree/main/0338-counting-bits/) | Easy |
