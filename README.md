@@ -322,6 +322,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0096-unique-binary-search-trees](https://github.com/trishyanigam/Leetcode/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/trishyanigam/Leetcode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0202-happy-number](https://github.com/trishyanigam/Leetcode/tree/main/0202-happy-number/) | Easy |
+| [0371-sum-of-two-integers](https://github.com/trishyanigam/Leetcode/tree/main/0371-sum-of-two-integers/) | Medium |
 | [0396-rotate-function](https://github.com/trishyanigam/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/trishyanigam/Leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [0887-super-egg-drop](https://github.com/trishyanigam/Leetcode/tree/main/0887-super-egg-drop/) | Hard |
@@ -425,6 +426,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0191-number-of-1-bits](https://github.com/trishyanigam/Leetcode/tree/main/0191-number-of-1-bits/) | Easy |
 | [0260-single-number-iii](https://github.com/trishyanigam/Leetcode/tree/main/0260-single-number-iii/) | Medium |
 | [0338-counting-bits](https://github.com/trishyanigam/Leetcode/tree/main/0338-counting-bits/) | Easy |
+| [0371-sum-of-two-integers](https://github.com/trishyanigam/Leetcode/tree/main/0371-sum-of-two-integers/) | Medium |
 | [1009-complement-of-base-10-integer](https://github.com/trishyanigam/Leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/trishyanigam/Leetcode/tree/main/2220-minimum-bit-flips-to-convert-number/) | Easy |
 ## Prefix Sum
