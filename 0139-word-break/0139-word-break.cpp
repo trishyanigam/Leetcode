@@ -10,24 +10,23 @@ public:
         {
             return dp[i];
         }
-        string temp="";
         for(int j=i;j<n;j++)
         {
-            temp+=s[j];
-            if(st.count(temp))
+            string word = s.substr(i,j-i+1);
+            if(st.count(word))
             {
                 if(helper(j+1,s,n,st,dp))
                 {
-                    return dp[i] = true;
+                    return dp[i]=true;
                 }
             }
         }
-        return dp[i] = false;
+        return dp[i]=false;
     }
     bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string>st(wordDict.begin(),wordDict.end());
         int n = s.size();
-        vector<int>dp(n,-1);
+        unordered_set<string>st(wordDict.begin(),wordDict.end());
+        vector<int> dp(n,-1);
         return helper(0,s,n,st,dp);
     }
 };
