@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/trishyanigam/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/trishyanigam/Leetcode/tree/main/0055-jump-game/) | Medium |
 | [0070-climbing-stairs](https://github.com/trishyanigam/Leetcode/tree/main/0070-climbing-stairs/) | Easy |
+| [0091-decode-ways](https://github.com/trishyanigam/Leetcode/tree/main/0091-decode-ways/) | Medium |
 | [0096-unique-binary-search-trees](https://github.com/trishyanigam/Leetcode/tree/main/0096-unique-binary-search-trees/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/trishyanigam/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/trishyanigam/Leetcode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/trishyanigam/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0049-group-anagrams](https://github.com/trishyanigam/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0079-word-search](https://github.com/trishyanigam/Leetcode/tree/main/0079-word-search/) | Medium |
+| [0091-decode-ways](https://github.com/trishyanigam/Leetcode/tree/main/0091-decode-ways/) | Medium |
 | [0125-valid-palindrome](https://github.com/trishyanigam/Leetcode/tree/main/0125-valid-palindrome/) | Easy |
 | [0131-palindrome-partitioning](https://github.com/trishyanigam/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0242-valid-anagram](https://github.com/trishyanigam/Leetcode/tree/main/0242-valid-anagram/) | Easy |
