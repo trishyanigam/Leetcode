@@ -1,10 +1,10 @@
 class Solution {
 public:
-    int helper(int i,vector<int>& nums, int tar,int n,vector<vector<int>>& dp)
+    int helper(int i,int newTar,int n,vector<int>& nums,vector<vector<int>>& dp)
     {
         if(i>=n)
         {
-            if(tar==0)
+            if(newTar==0)
             {
                 return 1;
             }
@@ -13,22 +13,22 @@ public:
                 return 0;
             }
         }
-        if(dp[i][tar]!=-1)
+        if(dp[i][newTar]!=-1)
         {
-            return dp[i][tar];
+            return dp[i][newTar];
         }
-        int notTake = helper(i+1,nums,tar,n,dp);
+        int notTake = helper(i+1,newTar,n,nums,dp);
         int take = 0;
-        if(nums[i]<=tar)
+        if(nums[i]<=newTar)
         {
-            take = helper(i+1,nums,tar-nums[i],n,dp);
+            take = helper(i+1,newTar-nums[i],n,nums,dp);
         }
-        dp[i][tar] = take+notTake;
-        return dp[i][tar];
+        dp[i][newTar] = take+notTake;
+        return dp[i][newTar];
     }
     int findTargetSumWays(vector<int>& nums, int target) {
         int n = nums.size();
-        int totSum = 0;
+        int totSum=0;
         for(int n:nums)
         {
             totSum+=n;
@@ -39,6 +39,6 @@ public:
             return 0;
         }
         vector<vector<int>>dp(n,vector<int>(newTar+1,-1));
-        return helper(0,nums,newTar,n,dp);
+        return helper(0,newTar,n,nums,dp);
     }
 };
