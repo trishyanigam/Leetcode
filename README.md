@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/trishyanigam/Leetcode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/trishyanigam/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0455-assign-cookies](https://github.com/trishyanigam/Leetcode/tree/main/0455-assign-cookies/) | Easy |
+| [0494-target-sum](https://github.com/trishyanigam/Leetcode/tree/main/0494-target-sum/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/trishyanigam/Leetcode/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0739-daily-temperatures](https://github.com/trishyanigam/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [0846-hand-of-straights](https://github.com/trishyanigam/Leetcode/tree/main/0846-hand-of-straights/) | Medium |
@@ -135,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0396-rotate-function](https://github.com/trishyanigam/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/trishyanigam/Leetcode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/trishyanigam/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0494-target-sum](https://github.com/trishyanigam/Leetcode/tree/main/0494-target-sum/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/trishyanigam/Leetcode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0647-palindromic-substrings](https://github.com/trishyanigam/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/trishyanigam/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
@@ -282,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/trishyanigam/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/trishyanigam/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/trishyanigam/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
+| [0494-target-sum](https://github.com/trishyanigam/Leetcode/tree/main/0494-target-sum/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/trishyanigam/Leetcode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/trishyanigam/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Matrix
