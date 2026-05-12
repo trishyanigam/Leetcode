@@ -6,9 +6,10 @@ public:
         {
             return dp[i][j];
         }
+        int ans = 1;
         int dr[] = {-1,0,1,0};
         int dc[] = {0,1,0,-1};
-        int ans = 1;
+
         for(int k=0;k<4;k++)
         {
             int nr = i+dr[k];
@@ -19,7 +20,7 @@ public:
                 ans = max(ans,1+helper(nr,nc,n,m,matrix,dp));
             }
         }
-        return dp[i][j] = ans;
+        return dp[i][j]=ans;
     }
     int longestIncreasingPath(vector<vector<int>>& matrix) {
         int n = matrix.size();
