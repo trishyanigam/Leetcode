@@ -10,7 +10,9 @@ public:
         {
             return dp[i][j];
         }
-        int ans=0;
+        
+        int ans = 0;
+
         for(int k=i+1;k<j;k++)
         {
             int coins = nums[i]*nums[k]*nums[j];
@@ -25,7 +27,7 @@ public:
         int n = nums.size();
         nums.insert(nums.begin(),1);
         nums.push_back(1);
-        vector<vector<int>>dp(n+1,vector<int>(n+2,-1));
+        vector<vector<int>>dp(n+2,vector<int>(n+2,-1));
         return helper(0,n+1,nums,dp);
     }
 };
