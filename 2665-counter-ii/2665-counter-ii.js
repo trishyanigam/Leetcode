@@ -5,18 +5,18 @@
 var createCounter = function(init) {
     let curr = init;
     return{
-        increment: function(){
-            curr++;
-            return curr;
-        },
-        decrement: function(){
-            curr--;
-            return curr;
-        },
-        reset: function(){
-            curr = init;
-            return curr;
-        }
+      increment: function(){
+        curr++;
+        return curr;
+      },
+      decrement: function(){
+        curr--;
+        return curr;
+      },
+      reset: function(){
+        curr = init;
+        return curr;
+      }
     };
 };
 
