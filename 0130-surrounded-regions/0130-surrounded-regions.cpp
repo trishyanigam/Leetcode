@@ -21,6 +21,7 @@ public:
     void solve(vector<vector<char>>& board) {
         int n = board.size();
         int m = board[0].size();
+
         vector<vector<int>>vis(n,vector<int>(m,0));
 
         for(int j=0;j<m;j++)
@@ -61,7 +62,7 @@ public:
             {
                 if(board[i][j]=='O' && !vis[i][j])
                 {
-                    board[i][j]='X';
+                    board[i][j] = 'X';
                 }
             }
         }
