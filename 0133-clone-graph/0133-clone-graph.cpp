@@ -21,10 +21,10 @@ public:
 
 class Solution {
 public:
-    Node* helper(Node* node,unordered_map<Node*,Node*>&mp)
+    Node* helper(Node* node,unordered_map<Node*,Node*>& mp)
     {
-        Node* newNode=new Node(node->val);
-        mp[node]=newNode;
+        Node* newNode = new Node(node->val);
+        mp[node] = newNode;
         for(auto neigh:node->neighbors)
         {
             if(mp.find(neigh)==mp.end())
