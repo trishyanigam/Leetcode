@@ -29,8 +29,10 @@ public:
             int v = it[1];
             adj[v].push_back(u);
         }
-        vector<int>vis(numCourses,0);
-        vector<int>vis2(numCourses,0);
+
+        vector<int> vis(numCourses,0);
+        vector<int> vis2(numCourses,0);
+
         for(int i=0;i<numCourses;i++)
         {
             if(!vis[i])
