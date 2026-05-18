@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/trishyanigam/Leetcode/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [0994-rotting-oranges](https://github.com/trishyanigam/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
+| [1345-jump-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/trishyanigam/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/trishyanigam/Leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -191,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/trishyanigam/Leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0695-max-area-of-island](https://github.com/trishyanigam/Leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0994-rotting-oranges](https://github.com/trishyanigam/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
+| [1345-jump-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/trishyanigam/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -464,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0846-hand-of-straights](https://github.com/trishyanigam/Leetcode/tree/main/0846-hand-of-straights/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/trishyanigam/Leetcode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/trishyanigam/Leetcode/tree/main/0981-time-based-key-value-store/) | Medium |
+| [1345-jump-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/trishyanigam/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/trishyanigam/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2615-sum-of-distances](https://github.com/trishyanigam/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
