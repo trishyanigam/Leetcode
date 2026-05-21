@@ -3,7 +3,7 @@ public:
     priority_queue<int,vector<int>,greater<int>>pq;
     int K;
     KthLargest(int k, vector<int>& nums) {
-        K = k;
+        K=k;
         for(int x:nums)
         {
             pq.push(x);
