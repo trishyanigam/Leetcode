@@ -197,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/trishyanigam/Leetcode/tree/main/0322-coin-change/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/trishyanigam/Leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/trishyanigam/Leetcode/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
+| [0684-redundant-connection](https://github.com/trishyanigam/Leetcode/tree/main/0684-redundant-connection/) | Medium |
 | [0695-max-area-of-island](https://github.com/trishyanigam/Leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0994-rotting-oranges](https://github.com/trishyanigam/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1345-jump-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
@@ -553,6 +554,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0417-pacific-atlantic-water-flow](https://github.com/trishyanigam/Leetcode/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/trishyanigam/Leetcode/tree/main/0572-subtree-of-another-tree/) | Easy |
+| [0684-redundant-connection](https://github.com/trishyanigam/Leetcode/tree/main/0684-redundant-connection/) | Medium |
 | [0695-max-area-of-island](https://github.com/trishyanigam/Leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
@@ -617,6 +619,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/trishyanigam/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0130-surrounded-regions](https://github.com/trishyanigam/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/trishyanigam/Leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [0684-redundant-connection](https://github.com/trishyanigam/Leetcode/tree/main/0684-redundant-connection/) | Medium |
 | [0695-max-area-of-island](https://github.com/trishyanigam/Leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/trishyanigam/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -630,6 +633,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/trishyanigam/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/trishyanigam/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/trishyanigam/Leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
+| [0684-redundant-connection](https://github.com/trishyanigam/Leetcode/tree/main/0684-redundant-connection/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/trishyanigam/Leetcode/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Minimum Spanning Tree
 | Problem Name | Difficulty |
