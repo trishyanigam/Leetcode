@@ -8,8 +8,10 @@ public:
     
     void addNum(int num) {
         left.push(num);
+
         right.push(left.top());
         left.pop();
+
         if(right.size()>left.size())
         {
             left.push(right.top());
