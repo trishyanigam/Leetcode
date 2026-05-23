@@ -1,25 +1,25 @@
 class Twitter {
 public:
     unordered_map<int,unordered_set<int>>followMap;
-    unordered_map<int,vector<pair<int,int>>>tweets;
+    unordered_map<int,vector<pair<int,int>>>tweetMap;
     int time;
     Twitter() {
         time = 0;
     }
     
     void postTweet(int userId, int tweetId) {
-        tweets[userId].push_back({time++,tweetId});
+        tweetMap[userId].push_back({time++,tweetId});
     }
     
     vector<int> getNewsFeed(int userId) {
         priority_queue<pair<int,int>>pq;
-        for(auto &tweet:tweets[userId])
+        for(auto &tweet:tweetMap[userId])
         {
             pq.push(tweet);
         }
-        for(auto f:followMap[userId])
+        for(auto follow:followMap[userId])
         {
-            for(auto &tweet:tweets[f])
+            for(auto &tweet:tweetMap[follow])
             {
                 pq.push(tweet);
             }
