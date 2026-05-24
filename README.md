@@ -206,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0417-pacific-atlantic-water-flow](https://github.com/trishyanigam/Leetcode/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0684-redundant-connection](https://github.com/trishyanigam/Leetcode/tree/main/0684-redundant-connection/) | Medium |
 | [0695-max-area-of-island](https://github.com/trishyanigam/Leetcode/tree/main/0695-max-area-of-island/) | Medium |
+| [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0994-rotting-oranges](https://github.com/trishyanigam/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1345-jump-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -572,6 +573,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/trishyanigam/Leetcode/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0684-redundant-connection](https://github.com/trishyanigam/Leetcode/tree/main/0684-redundant-connection/) | Medium |
 | [0695-max-area-of-island](https://github.com/trishyanigam/Leetcode/tree/main/0695-max-area-of-island/) | Medium |
+| [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/trishyanigam/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -617,6 +619,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0355-design-twitter](https://github.com/trishyanigam/Leetcode/tree/main/0355-design-twitter/) | Medium |
 | [0621-task-scheduler](https://github.com/trishyanigam/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/trishyanigam/Leetcode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/trishyanigam/Leetcode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1851-minimum-interval-to-include-each-query](https://github.com/trishyanigam/Leetcode/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
@@ -663,6 +666,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/trishyanigam/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/trishyanigam/Leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
 | [0684-redundant-connection](https://github.com/trishyanigam/Leetcode/tree/main/0684-redundant-connection/) | Medium |
+| [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/trishyanigam/Leetcode/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Minimum Spanning Tree
 | Problem Name | Difficulty |
@@ -783,4 +787,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/trishyanigam/Leetcode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0703-kth-largest-element-in-a-stream](https://github.com/trishyanigam/Leetcode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 <!---LeetCode Topics End-->
