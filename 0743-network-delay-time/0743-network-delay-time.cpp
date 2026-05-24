@@ -18,8 +18,8 @@ public:
             auto[d,node] = pq.top();
             pq.pop();
             if(d>dis[node])
-            continue;
-            for(auto& [neigh,wt]:adj[node])
+                continue;
+            for(auto &[neigh,wt]:adj[node])
             {
                 if(dis[node]+wt<dis[neigh])
                 {
@@ -32,7 +32,9 @@ public:
         for(int i=1;i<=n;i++)
         {
             if(dis[i]==INT_MAX)
-            return -1;
+            {
+                return -1;
+            }
             ans = max(ans,dis[i]);
         }
         return ans;
