@@ -2,8 +2,8 @@ class Solution {
 public:
     int minCostConnectPoints(vector<vector<int>>& points) {
         int n = points.size();
-        vector<int> minDis(n,INT_MAX);
-        vector<bool> vis(n,false);
+        vector<int>minDis(n,INT_MAX);
+        vector<bool>vis(n,false);
         minDis[0] = 0;
         int ans = 0;
         for(int i=0;i<n;i++)
@@ -23,9 +23,7 @@ public:
             {
                 if(!vis[v])
                 {
-                    int cost = abs(points[u][0]-points[v][0])+
-                               abs(points[u][1]-points[v][1]);
-
+                    int cost = abs(points[u][0]-points[v][0])+abs(points[u][1]-points[v][1]);
                     minDis[v] = min(minDis[v],cost);
                 }
             }
