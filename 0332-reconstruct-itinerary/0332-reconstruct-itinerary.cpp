@@ -14,7 +14,7 @@ public:
         ans.push_back(src);
     }
     vector<string> findItinerary(vector<vector<string>>& tickets) {
-        for(auto& ticket:tickets)
+        for(auto &ticket:tickets)
         {
             adj[ticket[0]].insert(ticket[1]);
         }
