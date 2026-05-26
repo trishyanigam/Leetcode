@@ -10,6 +10,7 @@ function memoize(fn) {
         {
             return cache.get(key);
         }
+
         const res = fn(...args);
         cache.set(key,res);
         return res;
