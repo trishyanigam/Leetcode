@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0312-burst-balloons](https://github.com/trishyanigam/Leetcode/tree/main/0312-burst-balloons/) | Hard |
 | [0322-coin-change](https://github.com/trishyanigam/Leetcode/tree/main/0322-coin-change/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/trishyanigam/Leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
+| [0332-reconstruct-itinerary](https://github.com/trishyanigam/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/trishyanigam/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0396-rotate-function](https://github.com/trishyanigam/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/trishyanigam/Leetcode/tree/main/0416-partition-equal-subset-sum/) | Medium |
@@ -237,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/trishyanigam/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0139-word-break](https://github.com/trishyanigam/Leetcode/tree/main/0139-word-break/) | Medium |
 | [0242-valid-anagram](https://github.com/trishyanigam/Leetcode/tree/main/0242-valid-anagram/) | Easy |
+| [0332-reconstruct-itinerary](https://github.com/trishyanigam/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/trishyanigam/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/trishyanigam/Leetcode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0567-permutation-in-string](https://github.com/trishyanigam/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
@@ -575,6 +577,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/trishyanigam/Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/trishyanigam/Leetcode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/trishyanigam/Leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
+| [0332-reconstruct-itinerary](https://github.com/trishyanigam/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/trishyanigam/Leetcode/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/trishyanigam/Leetcode/tree/main/0572-subtree-of-another-tree/) | Easy |
@@ -597,6 +600,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/trishyanigam/Leetcode/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/trishyanigam/Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/trishyanigam/Leetcode/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0332-reconstruct-itinerary](https://github.com/trishyanigam/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/trishyanigam/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/trishyanigam/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0455-assign-cookies](https://github.com/trishyanigam/Leetcode/tree/main/0455-assign-cookies/) | Easy |
@@ -622,6 +626,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/trishyanigam/Leetcode/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0332-reconstruct-itinerary](https://github.com/trishyanigam/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/trishyanigam/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0355-design-twitter](https://github.com/trishyanigam/Leetcode/tree/main/0355-design-twitter/) | Medium |
 | [0621-task-scheduler](https://github.com/trishyanigam/Leetcode/tree/main/0621-task-scheduler/) | Medium |
@@ -673,6 +678,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/trishyanigam/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/trishyanigam/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/trishyanigam/Leetcode/tree/main/0329-longest-increasing-path-in-a-matrix/) | Hard |
+| [0332-reconstruct-itinerary](https://github.com/trishyanigam/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0684-redundant-connection](https://github.com/trishyanigam/Leetcode/tree/main/0684-redundant-connection/) | Medium |
 | [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/trishyanigam/Leetcode/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
@@ -801,4 +807,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
+## Eulerian Circuit
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0332-reconstruct-itinerary](https://github.com/trishyanigam/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 <!---LeetCode Topics End-->
