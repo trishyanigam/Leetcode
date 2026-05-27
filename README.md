@@ -172,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/trishyanigam/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/trishyanigam/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/trishyanigam/Leetcode/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/trishyanigam/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0788-rotated-digits](https://github.com/trishyanigam/Leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [0887-super-egg-drop](https://github.com/trishyanigam/Leetcode/tree/main/0887-super-egg-drop/) | Hard |
 | [0983-minimum-cost-for-tickets](https://github.com/trishyanigam/Leetcode/tree/main/0983-minimum-cost-for-tickets/) | Medium |
@@ -212,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/trishyanigam/Leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/trishyanigam/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
+| [0787-cheapest-flights-within-k-stops](https://github.com/trishyanigam/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0994-rotting-oranges](https://github.com/trishyanigam/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1345-jump-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -591,6 +593,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/trishyanigam/Leetcode/tree/main/0695-max-area-of-island/) | Medium |
 | [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/trishyanigam/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
+| [0787-cheapest-flights-within-k-stops](https://github.com/trishyanigam/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/trishyanigam/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -640,6 +643,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0703-kth-largest-element-in-a-stream](https://github.com/trishyanigam/Leetcode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/trishyanigam/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
+| [0787-cheapest-flights-within-k-stops](https://github.com/trishyanigam/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/trishyanigam/Leetcode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1851-minimum-interval-to-include-each-query](https://github.com/trishyanigam/Leetcode/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
@@ -690,6 +694,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0332-reconstruct-itinerary](https://github.com/trishyanigam/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0684-redundant-connection](https://github.com/trishyanigam/Leetcode/tree/main/0684-redundant-connection/) | Medium |
 | [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/trishyanigam/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/trishyanigam/Leetcode/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/trishyanigam/Leetcode/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Minimum Spanning Tree
@@ -816,6 +821,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/trishyanigam/Leetcode/tree/main/0743-network-delay-time/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/trishyanigam/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 ## Eulerian Circuit
 | Problem Name | Difficulty |
 | ------- | ------- |
