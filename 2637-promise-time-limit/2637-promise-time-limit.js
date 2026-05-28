@@ -20,7 +20,7 @@ var timeLimit = function(fn, t) {
                     clearTimeout(timer);
                     reject(err);
                 });
-        });
+        })
     }
 };
 
