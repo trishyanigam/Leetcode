@@ -23,5 +23,5 @@ var join = function(arr1, arr2) {
             map.set(obj.id,obj);
         }
     }
-    return [...map.values()].sort((a,b)=>a.id-b.id);
+    return[...map.values()].sort((a,b)=>a.id-b.id);
 };
