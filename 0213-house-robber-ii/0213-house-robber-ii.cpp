@@ -14,18 +14,25 @@ public:
         {
             return dp[i];
         }
+
         int notTake = helper(i-1,nums,dp);
         int take = nums[i]+helper(i-2,nums,dp);
+
         return dp[i] = max(take,notTake);
     }
     int rob(vector<int>& nums) {
         int n = nums.size();
+        
         if(n==1)
         {
             return nums[0];
         }
+
         vector<int> nums1;
         vector<int> nums2;
+        vector<int> dp1(n,-1);
+        vector<int> dp2(n,-1);
+
         for(int i=0;i<n;i++)
         {
             if(i!=0)
@@ -40,10 +47,10 @@ public:
                 nums2.push_back(nums[i]);
             }
         }
-        vector<int>dp1(n,-1);
-        vector<int>dp2(n,-1);
+
         int ans1 = helper(n-2,nums1,dp1);
         int ans2 = helper(n-2,nums2,dp2);
+
         return max(ans1,ans2);
     }
 };
