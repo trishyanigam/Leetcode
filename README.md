@@ -105,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2078-two-furthest-houses-with-different-colors](https://github.com/trishyanigam/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2126-destroying-asteroids](https://github.com/trishyanigam/Leetcode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/trishyanigam/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2196-create-binary-tree-from-descriptions](https://github.com/trishyanigam/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/trishyanigam/Leetcode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/trishyanigam/Leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2540-minimum-common-value](https://github.com/trishyanigam/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
@@ -478,6 +479,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/trishyanigam/Leetcode/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0703-kth-largest-element-in-a-stream](https://github.com/trishyanigam/Leetcode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/trishyanigam/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -503,6 +505,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/trishyanigam/Leetcode/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0703-kth-largest-element-in-a-stream](https://github.com/trishyanigam/Leetcode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/trishyanigam/Leetcode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/trishyanigam/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -532,6 +535,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1345-jump-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/trishyanigam/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/trishyanigam/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/trishyanigam/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2540-minimum-common-value](https://github.com/trishyanigam/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/trishyanigam/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/trishyanigam/Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
