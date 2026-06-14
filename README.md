@@ -770,6 +770,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/trishyanigam/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
 | [0647-palindromic-substrings](https://github.com/trishyanigam/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/trishyanigam/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/trishyanigam/Leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2540-minimum-common-value](https://github.com/trishyanigam/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/trishyanigam/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/trishyanigam/Leetcode/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
@@ -812,6 +813,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/trishyanigam/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0739-daily-temperatures](https://github.com/trishyanigam/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/trishyanigam/Leetcode/tree/main/0853-car-fleet/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/trishyanigam/Leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -834,6 +836,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/trishyanigam/Leetcode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/trishyanigam/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0355-design-twitter](https://github.com/trishyanigam/Leetcode/tree/main/0355-design-twitter/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/trishyanigam/Leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
