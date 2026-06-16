@@ -1,40 +1,45 @@
 class Solution {
 public:
-    bool helper(int i,int target,vector<int>&nums,vector<vector<int>>&dp)
+    bool helper(int i,vector<int>& nums,int tar,vector<vector<int>>& dp)
     {
-        if(i>=nums.size())
-        {
-            return false;
-        }
-        if(target==0)
+        if(tar==0)
         {
             return true;
         }
-        if(dp[i][target]!=-1)
+        if(i==0)
         {
-            return dp[i][target];
+            if(nums[0]==tar)
+            {
+                return true;
+            }
+            return false;
         }
-        bool notTake=helper(i+1,target,nums,dp);
-        bool take=false;
-        if(nums[i]<=target)
+        if(dp[i][tar]!=-1)
         {
-            take=helper(i+1,target-nums[i],nums,dp);
+            return dp[i][tar];
         }
-        return dp[i][target]=take || notTake;
+        bool notTake = helper(i-1,nums,tar,dp);
+        bool take = false;
+        if(nums[i]<=tar)
+        {
+            take = helper(i-1,nums,tar-nums[i],dp);
+        }
+        dp[i][tar] = take||notTake;
+        return dp[i][tar];
     }
     bool canPartition(vector<int>& nums) {
-        int n=nums.size();
-        int sum=0;
+        int n = nums.size();
+        int totSum = 0;
         for(int n:nums)
         {
-            sum+=n;
+            totSum+=n;
         }
-        if(sum%2!=0)
+        if(totSum%2!=0)
         {
             return false;
         }
-        int target=sum/2;
-        vector<vector<int>>dp(n,vector<int>(target+1,-1));
-        return helper(0,target,nums,dp);
+        int tar = totSum/2;
+        vector<vector<int>>dp(n+1,vector<int>(tar+1,-1));
+        return helper(n-1,nums,tar,dp);
     }
 };
