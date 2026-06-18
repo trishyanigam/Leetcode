@@ -1,44 +1,45 @@
 class Solution {
 public:
-    int helper(int i,int newTar,int n,vector<int>& nums,vector<vector<int>>& dp)
+    int helper(int i,vector<int>& nums, int tar,vector<vector<int>>& dp)
     {
-        if(i>=n)
+        if(i==0)
         {
-            if(newTar==0)
+            if(tar==0 && nums[0]==0)
+            {
+                return 2;
+            }
+            if(tar==0 || nums[0]==tar)
             {
                 return 1;
             }
-            else
-            {
-                return 0;
-            }
+            return 0;
         }
-        if(dp[i][newTar]!=-1)
+        if(dp[i][tar]!=-1)
         {
-            return dp[i][newTar];
+            return dp[i][tar];
         }
-        int notTake = helper(i+1,newTar,n,nums,dp);
+        int notTake = helper(i-1,nums,tar,dp);
         int take = 0;
-        if(nums[i]<=newTar)
+        if(nums[i]<=tar)
         {
-            take = helper(i+1,newTar-nums[i],n,nums,dp);
+            take = helper(i-1,nums,tar-nums[i],dp);
         }
-        dp[i][newTar] = take+notTake;
-        return dp[i][newTar];
+        dp[i][tar] = take+notTake;
+        return dp[i][tar];
     }
     int findTargetSumWays(vector<int>& nums, int target) {
         int n = nums.size();
         int totSum=0;
-        for(int n:nums)
+        for(int x:nums)
         {
-            totSum+=n;
+            totSum+=x;
         }
-        int newTar = (target+totSum)/2;
-        if(abs(target)>totSum || (target+totSum)%2!=0)
+        if(abs(target)>totSum || ((target+totSum)%2!=0))
         {
             return 0;
         }
+        int newTar = (target+totSum)/2;
         vector<vector<int>>dp(n,vector<int>(newTar+1,-1));
-        return helper(0,newTar,n,nums,dp);
+        return helper(n-1,nums,newTar,dp);
     }
 };
