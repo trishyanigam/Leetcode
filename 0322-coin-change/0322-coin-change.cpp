@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int helper(int i,vector<int>& coins, int amount,vector<vector<int>>&dp)
+    int helper(int i,vector<int>& coins, int amount,vector<vector<int>> &dp)
     {
         if(i==0)
         {
@@ -14,17 +14,17 @@ public:
         {
             return dp[i][amount];
         }
-        int notTake = 0+helper(i-1,coins,amount,dp);
+        int notTake = helper(i-1,coins,amount,dp);
         int take = INT_MAX;
         if(coins[i]<=amount)
         {
-            take=1+helper(i,coins,amount-coins[i],dp);
+            take = 1+(helper(i,coins,amount-coins[i],dp));
         }
         dp[i][amount] = min(take,notTake);
         return dp[i][amount];
     }
     int coinChange(vector<int>& coins, int amount) {
-        int n=coins.size();
+        int n = coins.size();
         vector<vector<int>>dp(n,vector<int>(amount+1,-1));
         int ans = helper(n-1,coins,amount,dp);
         if(ans>=1e9)
