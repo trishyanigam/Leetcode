@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool helper(int i,vector<int>& nums,int tar,vector<vector<int>>& dp)
+    bool helper(int i,vector<int>& arr, int tar,vector<vector<int>>& dp)
     {
         if(tar==0)
         {
@@ -8,7 +8,7 @@ public:
         }
         if(i==0)
         {
-            if(nums[0]==tar)
+            if(arr[0]==tar)
             {
                 return true;
             }
@@ -18,11 +18,11 @@ public:
         {
             return dp[i][tar];
         }
-        bool notTake = helper(i-1,nums,tar,dp);
+        bool notTake = helper(i-1,arr,tar,dp);
         bool take = false;
-        if(nums[i]<=tar)
+        if(arr[i]<=tar)
         {
-            take = helper(i-1,nums,tar-nums[i],dp);
+            take = helper(i-1,arr,tar-arr[i],dp);
         }
         dp[i][tar] = take||notTake;
         return dp[i][tar];
@@ -39,7 +39,7 @@ public:
             return false;
         }
         int tar = totSum/2;
-        vector<vector<int>>dp(n+1,vector<int>(tar+1,-1));
+        vector<vector<int>>dp(n,vector<int>(tar+1,-1));
         return helper(n-1,nums,tar,dp);
     }
 };
