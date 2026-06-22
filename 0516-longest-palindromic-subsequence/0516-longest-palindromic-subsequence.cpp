@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int helper(int i,int j,string& s,vector<vector<int>>&dp)
+    int helper(int i,int j,string& s,vector<vector<int>>& dp)
     {
         if(i>j)
         {
@@ -16,19 +16,19 @@ public:
         }
         if(s[i]==s[j])
         {
-            dp[i][j]=2+helper(i+1,j-1,s,dp);
+            dp[i][j] = 2+helper(i+1,j-1,s,dp);
         }
         else
         {
-            int left = helper(i+1,j,s,dp);
-            int right = helper(i,j-1,s,dp);
-            dp[i][j] = max(left,right);
+            int l = helper(i+1,j,s,dp);
+            int r = helper(i,j-1,s,dp);
+            dp[i][j] = max(l,r);
         }
         return dp[i][j];
     }
     int longestPalindromeSubseq(string s) {
-        int n=s.size();
-        vector<vector<int>>dp(n,vector<int>(n,-1));
+        int n = s.size();
+        vector<vector<int>>dp(n+1,vector<int>(n+1,-1));
         return helper(0,n-1,s,dp);
     }
 };
