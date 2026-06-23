@@ -10,7 +10,7 @@ var expect = function(val) {
             {
                 return true;
             }
-            throw new Error("Not Equal");
+            throw new Error ("Not Equal");
         },
         notToBe: function(val2)
         {
@@ -18,7 +18,7 @@ var expect = function(val) {
             {
                 return true;
             }
-            throw new Error("Equal");
+            throw new Error ("Equal");
         }
     };
 };
