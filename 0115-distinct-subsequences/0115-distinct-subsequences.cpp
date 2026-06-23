@@ -1,12 +1,12 @@
 class Solution {
 public:
-    int helper(int i,int j,string& s, string& t,int n,int m,vector<vector<int>>& dp)
+    int helper(int i,int j,string& s, string& t,vector<vector<int>>& dp)
     {
-        if(j==m)
+        if(j<0)
         {
             return 1;
         }
-        if(i==n)
+        if(i<0)
         {
             return 0;
         }
@@ -17,13 +17,13 @@ public:
         int ans = 0;
         if(s[i]==t[j])
         {
-            int take = helper(i+1,j+1,s,t,n,m,dp);
-            int notTake = helper(i+1,j,s,t,n,m,dp);
+            int take = helper(i-1,j-1,s,t,dp);
+            int notTake = helper(i-1,j,s,t,dp);
             ans = take+notTake;
         }
         else
         {
-            ans = helper(i+1,j,s,t,n,m,dp);
+            ans = helper(i-1,j,s,t,dp);
         }
         return dp[i][j] = ans;
     }
@@ -31,6 +31,6 @@ public:
         int n = s.size();
         int m = t.size();
         vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-        return helper(0,0,s,t,n,m,dp);
+        return helper(n-1,m-1,s,t,dp);
     }
 };
