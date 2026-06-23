@@ -1,10 +1,14 @@
 class Solution {
 public:
-    bool helper(int i,int j,string& s,string& p,vector<vector<int>>&dp)
+    bool helper(int i,int j,string& s, string& p,vector<vector<int>>& dp)
     {
-        if(i<0 &&j<0)
+        if(i<0 && j<0)
         {
             return true;
+        }
+        if(i>=0 && j<0)
+        {
+            return false;
         }
         if(i<0 && j>=0)
         {
@@ -16,10 +20,6 @@ public:
                 }
             }
             return true;
-        }
-        if(j<0 && i>=0)
-        {
-            return false;
         }
         if(dp[i][j]!=-1)
         {
@@ -36,9 +36,9 @@ public:
         return dp[i][j] = false;
     }
     bool isMatch(string s, string p) {
-        int n=s.size();
-        int m=p.size();
-        vector<vector<int>>dp(n,vector<int>(m,-1));
+        int n = s.size();
+        int m = p.size();
+        vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
         return helper(n-1,m-1,s,p,dp);
     }
 };
