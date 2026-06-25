@@ -202,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0788-rotated-digits](https://github.com/trishyanigam/Leetcode/tree/main/0788-rotated-digits/) | Medium |
 | [0887-super-egg-drop](https://github.com/trishyanigam/Leetcode/tree/main/0887-super-egg-drop/) | Hard |
 | [0983-minimum-cost-for-tickets](https://github.com/trishyanigam/Leetcode/tree/main/0983-minimum-cost-for-tickets/) | Medium |
+| [1092-shortest-common-supersequence](https://github.com/trishyanigam/Leetcode/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/trishyanigam/Leetcode/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/trishyanigam/Leetcode/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1340-jump-game-v](https://github.com/trishyanigam/Leetcode/tree/main/1340-jump-game-v/) | Hard |
@@ -283,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/trishyanigam/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0796-rotate-string](https://github.com/trishyanigam/Leetcode/tree/main/0796-rotate-string/) | Easy |
 | [0981-time-based-key-value-store](https://github.com/trishyanigam/Leetcode/tree/main/0981-time-based-key-value-store/) | Medium |
+| [1092-shortest-common-supersequence](https://github.com/trishyanigam/Leetcode/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/trishyanigam/Leetcode/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/trishyanigam/Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/trishyanigam/Leetcode/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
