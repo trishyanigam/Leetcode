@@ -875,6 +875,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/trishyanigam/Leetcode/tree/main/0002-add-two-numbers/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/trishyanigam/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0061-rotate-list](https://github.com/trishyanigam/Leetcode/tree/main/0061-rotate-list/) | Medium |
+| [0092-reverse-linked-list-ii](https://github.com/trishyanigam/Leetcode/tree/main/0092-reverse-linked-list-ii/) | Medium |
 | [0141-linked-list-cycle](https://github.com/trishyanigam/Leetcode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/trishyanigam/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0355-design-twitter](https://github.com/trishyanigam/Leetcode/tree/main/0355-design-twitter/) | Medium |
