@@ -2,14 +2,23 @@ class Solution {
 public:
     int helper(int i,vector<int>& coins,int amt,vector<vector<int>>& dp)
     {
-        if(i==0)
+        if(amt==0)
         {
-            if(amt%coins[0]==0)
-            {
-                return 1;
-            }
+            return 1;
+        }
+        if(i<0)
+        {
             return 0;
         }
+        // if(i==0)
+        // {
+        //     if(amt==coins[0])
+        //     {
+        //         return 1;
+        //     }
+        //     return 0;
+        // }
+
         if(dp[i][amt]!=-1)
         {
             return dp[i][amt];
