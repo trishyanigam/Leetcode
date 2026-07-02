@@ -3,14 +3,14 @@ public:
     bool checkValidString(string s) {
         int low=0;
         int high=0;
-        for(int i=0;i<s.size();i++)
+        for(char ch:s)
         {
-            if(s[i]=='(')
+            if(ch=='(')
             {
                 low++;
                 high++;
             }
-            else if(s[i]==')')
+            else if(ch==')')
             {
                 low--;
                 high--;
@@ -20,7 +20,6 @@ public:
                 low--;
                 high++;
             }
-
             if(low<0)
             {
                 low=0;
