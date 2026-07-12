@@ -9,7 +9,7 @@ public:
             {
                 return false;
             }
-            idx=i+nums[i];
+            idx=max(idx,i+nums[i]);
         }
         return true;
     }
