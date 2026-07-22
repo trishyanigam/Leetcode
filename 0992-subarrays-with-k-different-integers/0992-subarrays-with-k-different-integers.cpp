@@ -3,8 +3,8 @@ public:
     int atMost(vector<int>& nums,int k)
     {
         unordered_map<int,int>mp;
-        int ans = 0;
         int l = 0;
+        int ans = 0;
         for(int r=0;r<nums.size();r++)
         {
             if(mp[nums[r]]==0)
