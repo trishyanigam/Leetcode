@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0983-minimum-cost-for-tickets](https://github.com/trishyanigam/Leetcode/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/trishyanigam/Leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [0994-rotting-oranges](https://github.com/trishyanigam/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
+| [1004-max-consecutive-ones-iii](https://github.com/trishyanigam/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1260-shift-2d-grid](https://github.com/trishyanigam/Leetcode/tree/main/1260-shift-2d-grid/) | Easy |
 | [1301-number-of-paths-with-max-score](https://github.com/trishyanigam/Leetcode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1340-jump-game-v](https://github.com/trishyanigam/Leetcode/tree/main/1340-jump-game-v/) | Hard |
@@ -373,6 +374,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0875-koko-eating-bananas](https://github.com/trishyanigam/Leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0887-super-egg-drop](https://github.com/trishyanigam/Leetcode/tree/main/0887-super-egg-drop/) | Hard |
 | [0981-time-based-key-value-store](https://github.com/trishyanigam/Leetcode/tree/main/0981-time-based-key-value-store/) | Medium |
+| [1004-max-consecutive-ones-iii](https://github.com/trishyanigam/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/trishyanigam/Leetcode/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [1851-minimum-interval-to-include-each-query](https://github.com/trishyanigam/Leetcode/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/trishyanigam/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
@@ -400,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-fruit-into-baskets](https://github.com/trishyanigam/Leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/trishyanigam/Leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/trishyanigam/Leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1004-max-consecutive-ones-iii](https://github.com/trishyanigam/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/trishyanigam/Leetcode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1871-jump-game-vii](https://github.com/trishyanigam/Leetcode/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/trishyanigam/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
@@ -684,6 +687,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/trishyanigam/Leetcode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/trishyanigam/Leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
+| [1004-max-consecutive-ones-iii](https://github.com/trishyanigam/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/trishyanigam/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/trishyanigam/Leetcode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1871-jump-game-vii](https://github.com/trishyanigam/Leetcode/tree/main/1871-jump-game-vii/) | Medium |
