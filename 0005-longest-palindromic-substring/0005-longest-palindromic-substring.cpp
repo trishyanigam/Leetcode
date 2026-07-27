@@ -10,7 +10,7 @@ public:
         return s.substr(l+1,r-l-1);
     }
     string longestPalindrome(string s) {
-        int n = s.length();
+        int n = s.size();
         string ans;
         for(int i=0;i<n;i++)
         {
