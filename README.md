@@ -87,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-fruit-into-baskets](https://github.com/trishyanigam/Leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/trishyanigam/Leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
+| [0945-minimum-increment-to-make-array-unique](https://github.com/trishyanigam/Leetcode/tree/main/0945-minimum-increment-to-make-array-unique/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/trishyanigam/Leetcode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [0983-minimum-cost-for-tickets](https://github.com/trishyanigam/Leetcode/tree/main/0983-minimum-cost-for-tickets/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/trishyanigam/Leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
@@ -501,6 +502,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/trishyanigam/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0846-hand-of-straights](https://github.com/trishyanigam/Leetcode/tree/main/0846-hand-of-straights/) | Medium |
 | [0860-lemonade-change](https://github.com/trishyanigam/Leetcode/tree/main/0860-lemonade-change/) | Easy |
+| [0945-minimum-increment-to-make-array-unique](https://github.com/trishyanigam/Leetcode/tree/main/0945-minimum-increment-to-make-array-unique/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/trishyanigam/Leetcode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/trishyanigam/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/trishyanigam/Leetcode/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
@@ -783,6 +785,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0846-hand-of-straights](https://github.com/trishyanigam/Leetcode/tree/main/0846-hand-of-straights/) | Medium |
 | [0853-car-fleet](https://github.com/trishyanigam/Leetcode/tree/main/0853-car-fleet/) | Medium |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
+| [0945-minimum-increment-to-make-array-unique](https://github.com/trishyanigam/Leetcode/tree/main/0945-minimum-increment-to-make-array-unique/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/trishyanigam/Leetcode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1340-jump-game-v](https://github.com/trishyanigam/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/trishyanigam/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
@@ -851,6 +854,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/trishyanigam/Leetcode/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0621-task-scheduler](https://github.com/trishyanigam/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0912-sort-an-array](https://github.com/trishyanigam/Leetcode/tree/main/0912-sort-an-array/) | Medium |
+| [0945-minimum-increment-to-make-array-unique](https://github.com/trishyanigam/Leetcode/tree/main/0945-minimum-increment-to-make-array-unique/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/trishyanigam/Leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1189-maximum-number-of-balloons](https://github.com/trishyanigam/Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/trishyanigam/Leetcode/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
