@@ -1,21 +1,19 @@
 class Solution {
 public:
     bool check(vector<int>& nums) {
-        
         int n = nums.size();
-        int count = 0;
-
-        // Count breaking points
-        for(int i = 0; i < n; i++)
+        int cnt = 0;
+        for(int i=0;i<n;i++)
         {
-            // Compare current element with next element
-            if(nums[i] > nums[(i + 1) % n])
+            if(nums[i]>nums[(i+1)%n])
             {
-                count++;
+                cnt++;
             }
         }
-
-        // Valid only if at most one drop exists
-        return count <= 1;
+        if(cnt>1)
+        {
+            return false;
+        }
+        return true;
     }
 };
