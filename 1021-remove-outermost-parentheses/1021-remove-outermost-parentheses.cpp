@@ -1,7 +1,6 @@
 class Solution {
 public:
     string removeOuterParentheses(string s) {
-        int n = s.size();
         string ans;
         int dep = 0;
         for(char ch:s)
@@ -23,6 +22,6 @@ public:
                 }
             }
         }
-        return ans;
+        return ans;    
     }
 };
