@@ -7,7 +7,7 @@ public:
         {
             if(nums[i]!=nums[j])
             {
-                nums[i+1] = nums[j];
+                nums[i+1]=nums[j];
                 i++;
             }
         }
