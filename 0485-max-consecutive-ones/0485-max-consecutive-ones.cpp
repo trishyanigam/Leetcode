@@ -10,11 +10,11 @@ public:
             {
                 cnt++;
             }
-            else
+            maxi=max(maxi,cnt);
+            if(nums[i]==0)
             {
                 cnt=0;
             }
-            maxi = max(maxi,cnt);
         }
         return maxi;
     }
