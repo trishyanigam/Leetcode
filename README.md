@@ -1101,4 +1101,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3161-block-placement-queries](https://github.com/trishyanigam/Leetcode/tree/main/3161-block-placement-queries/) | Hard |
+## Quicksort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0056-merge-intervals](https://github.com/trishyanigam/Leetcode/tree/main/0056-merge-intervals/) | Medium |
 <!---LeetCode Topics End-->
