@@ -6,15 +6,15 @@ public:
         int j=m+1;
         for(int i=l;i<=m;i++)
         {
-            while(j<=h && (long long)arr[i]>(2LL)*arr[j])
+            while(j<=h && (long long)arr[i]> 2LL*arr[j])
             {
                 j++;
             }
             cnt+=(j-(m+1));
         }
         vector<int> temp;
-        int left=l;
-        int right=m+1;
+        int left = l;
+        int right = m+1;
         while(left<=m && right<=h)
         {
             if(arr[left]<=arr[right])
