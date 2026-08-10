@@ -243,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/trishyanigam/Leetcode/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1340-jump-game-v](https://github.com/trishyanigam/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1463-cherry-pickup-ii](https://github.com/trishyanigam/Leetcode/tree/main/1463-cherry-pickup-ii/) | Hard |
+| [1510-stone-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/trishyanigam/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/trishyanigam/Leetcode/tree/main/1671-minimum-number-of-removals-to-make-mountain-array/) | Hard |
 | [1871-jump-game-vii](https://github.com/trishyanigam/Leetcode/tree/main/1871-jump-game-vii/) | Medium |
@@ -569,6 +570,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0973-k-closest-points-to-origin](https://github.com/trishyanigam/Leetcode/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1140-stone-game-ii](https://github.com/trishyanigam/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/trishyanigam/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [1510-stone-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 | [1622-fancy-sequence](https://github.com/trishyanigam/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [1840-maximum-building-height](https://github.com/trishyanigam/Leetcode/tree/main/1840-maximum-building-height/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/trishyanigam/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
@@ -1119,14 +1121,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/trishyanigam/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
+| [1510-stone-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 ## Game Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/trishyanigam/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
+| [1510-stone-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 ## Zero-Sum Game
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/trishyanigam/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
+| [1510-stone-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 ## Ordered Set
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1135,4 +1140,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0493-reverse-pairs](https://github.com/trishyanigam/Leetcode/tree/main/0493-reverse-pairs/) | Hard |
+## Nim Game
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1510-stone-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
+## Sprague–Grundy Theorem
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1510-stone-game-iv](https://github.com/trishyanigam/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 <!---LeetCode Topics End-->
