@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void helper(int open,int close,int n,string path,vector<string>& ans)
+    void helper(int open,int close,int n,string& path,vector<string> &ans)
     {
         if(path.size()==2*n)
         {
