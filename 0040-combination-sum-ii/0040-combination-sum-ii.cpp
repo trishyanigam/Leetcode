@@ -1,32 +1,33 @@
 class Solution {
 public:
-    void helper(int st,vector<int>& arr,int tar,vector<int>& path,vector<vector<int>>& ans)
+    void helper(int st,int sum,vector<int>& candidates,int tar,int n,vector<int>& path,vector<vector<int>>& ans)
     {
-        int n = arr.size();
-        if(tar==0)
-        {
-            ans.push_back(path);
-            return;
-        }
+            if(sum==tar)
+            {
+                ans.push_back(path);
+                return;
+            }
         for(int i=st;i<n;i++)
         {
-            if(i>st && arr[i]==arr[i-1])
+            if(i>st && candidates[i]==candidates[i-1])
             {
                 continue;
             }
-            if(arr[i]<=tar)
+            if(sum>tar)
             {
-                path.push_back(arr[i]);
-                helper(i+1,arr,tar-arr[i],path,ans);
-                path.pop_back();
+                break;
             }
+            path.push_back(candidates[i]);
+            helper(i+1,sum+candidates[i],candidates,tar,n,path,ans);
+            path.pop_back();
         }
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        sort(candidates.begin(),candidates.end());
         vector<vector<int>> ans;
         vector<int> path;
-        helper(0,candidates,target,path,ans);
+        int n = candidates.size();
+        sort(candidates.begin(),candidates.end());
+        helper(0,0,candidates,target,n,path,ans);
         return ans;
     }
 };
