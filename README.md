@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0493-reverse-pairs](https://github.com/trishyanigam/Leetcode/tree/main/0493-reverse-pairs/) | Hard |
 | [0494-target-sum](https://github.com/trishyanigam/Leetcode/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/trishyanigam/Leetcode/tree/main/0518-coin-change-ii/) | Medium |
+| [0525-contiguous-array](https://github.com/trishyanigam/Leetcode/tree/main/0525-contiguous-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/trishyanigam/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0621-task-scheduler](https://github.com/trishyanigam/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/trishyanigam/Leetcode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
@@ -684,6 +685,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0355-design-twitter](https://github.com/trishyanigam/Leetcode/tree/main/0355-design-twitter/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/trishyanigam/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/trishyanigam/Leetcode/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [0525-contiguous-array](https://github.com/trishyanigam/Leetcode/tree/main/0525-contiguous-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/trishyanigam/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0567-permutation-in-string](https://github.com/trishyanigam/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
 | [0621-task-scheduler](https://github.com/trishyanigam/Leetcode/tree/main/0621-task-scheduler/) | Medium |
@@ -762,6 +764,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/trishyanigam/Leetcode/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0525-contiguous-array](https://github.com/trishyanigam/Leetcode/tree/main/0525-contiguous-array/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/trishyanigam/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/trishyanigam/Leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/trishyanigam/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
