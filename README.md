@@ -385,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0010-regular-expression-matching](https://github.com/trishyanigam/Leetcode/tree/main/0010-regular-expression-matching/) | Hard |
 | [0044-wildcard-matching](https://github.com/trishyanigam/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0143-reorder-list](https://github.com/trishyanigam/Leetcode/tree/main/0143-reorder-list/) | Medium |
+| [0206-reverse-linked-list](https://github.com/trishyanigam/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 | [0509-fibonacci-number](https://github.com/trishyanigam/Leetcode/tree/main/0509-fibonacci-number/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/trishyanigam/Leetcode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 ## Simulation
@@ -1084,6 +1085,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0092-reverse-linked-list-ii](https://github.com/trishyanigam/Leetcode/tree/main/0092-reverse-linked-list-ii/) | Medium |
 | [0141-linked-list-cycle](https://github.com/trishyanigam/Leetcode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/trishyanigam/Leetcode/tree/main/0143-reorder-list/) | Medium |
+| [0206-reverse-linked-list](https://github.com/trishyanigam/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 | [0355-design-twitter](https://github.com/trishyanigam/Leetcode/tree/main/0355-design-twitter/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/trishyanigam/Leetcode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/trishyanigam/Leetcode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
