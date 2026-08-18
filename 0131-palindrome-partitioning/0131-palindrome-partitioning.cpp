@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isPalindrome(int l,int r,string s)
+    bool isPalindrome(int l,int r,string& s)
     {
         while(l<r)
         {
@@ -13,7 +13,7 @@ public:
         }
         return true;
     }
-    void helper(int st,int n,string& s,vector<string>& path,vector<vector<string>>& ans)
+    void helper(int st,int n,string &s,vector<string>& path,vector<vector<string>>& ans)
     {
         if(st==n)
         {
