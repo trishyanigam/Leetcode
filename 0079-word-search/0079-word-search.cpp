@@ -1,21 +1,21 @@
 class Solution {
 public:
-    bool dfs(vector<vector<char>>& board,int i,int j,int n,int m,int idx,string word)
+    bool dfs(int i,int j,int n,int m,vector<vector<char>>& board, string& word,int idx)
     {
         if(idx==word.size())
         {
             return true;
         }
-        if(i<0||j<0||i>=n||j>=m||board[i][j]!=word[idx])
+        if(i<0 || j<0 || i>=n || j>=m || board[i][j]!=word[idx])
         {
             return false;
         }
         char temp = board[i][j];
         board[i][j] = '#';
-        bool found = dfs(board,i-1,j,n,m,idx+1,word) ||
-                     dfs(board,i+1,j,n,m,idx+1,word) ||
-                     dfs(board,i,j-1,n,m,idx+1,word) ||
-                     dfs(board,i,j+1,n,m,idx+1,word);
+        bool found = dfs(i-1,j,n,m,board,word,idx+1) || 
+                     dfs(i,j+1,n,m,board,word,idx+1) ||
+                     dfs(i+1,j,n,m,board,word,idx+1) ||
+                     dfs(i,j-1,n,m,board,word,idx+1);
         board[i][j] = temp;
         return found;
     }
@@ -26,7 +26,7 @@ public:
         {
             for(int j=0;j<m;j++)
             {
-                if(dfs(board,i,j,n,m,0,word))
+                if(dfs(i,j,n,m,board,word,0))
                 {
                     return true;
                 }
