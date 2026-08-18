@@ -1214,4 +1214,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/trishyanigam/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
+## Algorithm X
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0051-n-queens](https://github.com/trishyanigam/Leetcode/tree/main/0051-n-queens/) | Hard |
 <!---LeetCode Topics End-->
