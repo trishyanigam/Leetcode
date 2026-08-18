@@ -43,15 +43,15 @@ public:
         {
             if(isSafe(i,j,n,board))
             {
-                board[i][j]='Q';
+                board[i][j] = 'Q';
                 helper(i+1,n,board,ans);
-                board[i][j]='.';
+                board[i][j] = '.';
             }
         }
     }
     vector<vector<string>> solveNQueens(int n) {
         vector<vector<string>> ans;
-        vector<string>board(n,string(n,'.'));
+        vector<string> board(n,string(n,'.'));
         helper(0,n,board,ans);
         return ans;
     }
