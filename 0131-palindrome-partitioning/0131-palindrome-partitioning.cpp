@@ -1,21 +1,20 @@
 class Solution {
 public:
-    bool isPalindrome(int i,int j,string s)
+    bool isPalindrome(int l,int r,string s)
     {
-        while(i<j)
+        while(l<r)
         {
-            if(s[i]!=s[j])
+            if(s[l]!=s[r])
             {
                 return false;
             }
-            i++;
-            j--;
+            l++;
+            r--;
         }
         return true;
     }
-    void helper(int st,string s,vector<string> &path,vector<vector<string>>& ans)
+    void helper(int st,int n,string& s,vector<string>& path,vector<vector<string>>& ans)
     {
-        int n = s.size();
         if(st==n)
         {
             ans.push_back(path);
@@ -26,15 +25,16 @@ public:
             if(isPalindrome(st,i,s))
             {
                 path.push_back(s.substr(st,i-st+1));
-                helper(i+1,s,path,ans);
+                helper(i+1,n,s,path,ans);
                 path.pop_back();
             }
         }
     }
     vector<vector<string>> partition(string s) {
         vector<vector<string>> ans;
-        vector<string> path;
-        helper(0,s,path,ans);
+        vector<string>path;
+        int n = s.size();
+        helper(0,n,s,path,ans);
         return ans;
     }
 };
