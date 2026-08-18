@@ -12,10 +12,10 @@ public:
         }
         char temp = board[i][j];
         board[i][j] = '#';
-        bool found = dfs(i-1,j,n,m,board,word,idx+1) || 
-                     dfs(i,j+1,n,m,board,word,idx+1) ||
+        bool found = dfs(i-1,j,n,m,board,word,idx+1) ||
+                     dfs(i,j-1,n,m,board,word,idx+1) ||
                      dfs(i+1,j,n,m,board,word,idx+1) ||
-                     dfs(i,j-1,n,m,board,word,idx+1);
+                     dfs(i,j+1,n,m,board,word,idx+1);
         board[i][j] = temp;
         return found;
     }
