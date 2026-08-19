@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool helper(int i,string s,int n,unordered_set<string>& st,vector<int>& dp)
+    bool helper(int i,int n,string& s,unordered_set<string>& st,vector<int>& dp)
     {
         if(i==n)
         {
@@ -15,18 +15,18 @@ public:
             string word = s.substr(i,j-i+1);
             if(st.count(word))
             {
-                if(helper(j+1,s,n,st,dp))
+                if(helper(j+1,n,s,st,dp))
                 {
-                    return dp[i]=true;
+                    return dp[i] = true;
                 }
             }
         }
-        return dp[i]=false;
+        return dp[i] = false;
     }
     bool wordBreak(string s, vector<string>& wordDict) {
         int n = s.size();
         unordered_set<string>st(wordDict.begin(),wordDict.end());
-        vector<int> dp(n,-1);
-        return helper(0,s,n,st,dp);
+        vector<int>dp(n,-1);
+        return helper(0,n,s,st,dp);
     }
 };
