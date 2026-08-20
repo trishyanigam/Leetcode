@@ -1221,9 +1221,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Algorithm X
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0037-sudoku-solver](https://github.com/trishyanigam/Leetcode/tree/main/0037-sudoku-solver/) | Hard |
 | [0051-n-queens](https://github.com/trishyanigam/Leetcode/tree/main/0051-n-queens/) | Hard |
 ## Brute-Force Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0139-word-break](https://github.com/trishyanigam/Leetcode/tree/main/0139-word-break/) | Medium |
+## Dancing Links
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0037-sudoku-solver](https://github.com/trishyanigam/Leetcode/tree/main/0037-sudoku-solver/) | Hard |
 <!---LeetCode Topics End-->
