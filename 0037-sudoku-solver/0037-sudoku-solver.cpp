@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isSafe(vector<vector<char>>& board,int r,int c,int dig)
+    bool isSafe(char dig,int r,int c,vector<vector<char>>& board)
     {
         for(int i=0;i<9;i++)
         {
@@ -9,7 +9,6 @@ public:
                 return false;
             }
         }
-
         for(int j=0;j<9;j++)
         {
             if(board[r][j]==dig)
@@ -17,11 +16,11 @@ public:
                 return false;
             }
         }
-        int srow = (r/3)*3;
-        int scol = (c/3)*3;
-        for(int i=srow;i<=srow+2;i++)
+        int sr = (r/3)*3;
+        int sc = (c/3)*3;
+        for(int i=sr;i<=sr+2;i++)
         {
-            for(int j=scol;j<=scol+2;j++)
+            for(int j=sc;j<=sc+2;j++)
             {
                 if(board[i][j]==dig)
                 {
@@ -31,14 +30,14 @@ public:
         }
         return true;
     }
-    bool helper(vector<vector<char>>& board,int r,int c)
+    bool helper(int r,int c,vector<vector<char>>& board)
     {
         if(r==9)
         {
             return true;
         }
-        int nr=r;
-        int nc=c+1;
+        int nr = r;
+        int nc = c+1;
         if(nc==9)
         {
             nr=r+1;
@@ -46,21 +45,23 @@ public:
         }
         if(board[r][c]!='.')
         {
-            return helper(board,nr,nc);
+            return helper(nr,nc,board);
         }
         for(char dig='1';dig<='9';dig++)
         {
-            if(isSafe(board,r,c,dig))
+            if(isSafe(dig,r,c,board))
             {
-                board[r][c]=dig;
-                if(helper(board,nr,nc))
-                return true;
-                board[r][c]='.';
+                board[r][c] = dig;
+                if(helper(nr,nc,board))
+                {
+                    return true;
+                }
+                board[r][c] = '.';
             }
         }
         return false;
     }
     void solveSudoku(vector<vector<char>>& board) {
-        helper(board,0,0);
+        helper(0,0,board);
     }
 };
