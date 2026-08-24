@@ -48,10 +48,11 @@ public:
                 board[i][j] = '.';
             }
         }
+        
     }
     vector<vector<string>> solveNQueens(int n) {
         vector<vector<string>> ans;
-        vector<string> board(n,string(n,'.'));
+        vector<string>board(n,string(n,'.'));
         helper(0,n,board,ans);
         return ans;
     }
