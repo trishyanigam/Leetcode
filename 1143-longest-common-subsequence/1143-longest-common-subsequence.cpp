@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int helper(int i,int j,string& text1, string& text2,vector<vector<int>>& dp)
+    int helper(int i,int j,int n,int m,string& text1,string& text2,vector<vector<int>>& dp)
     {
         if(i<0 || j<0)
         {
@@ -12,18 +12,17 @@ public:
         }
         if(text1[i]==text2[j])
         {
-            dp[i][j] = 1+helper(i-1,j-1,text1,text2,dp);
+            return dp[i][j] = 1+helper(i-1,j-1,n,m,text1,text2,dp);
         }
         else
         {
-            dp[i][j] = max(helper(i-1,j,text1,text2,dp),helper(i,j-1,text1,text2,dp));
+            return dp[i][j] = max(helper(i-1,j,n,m,text1,text2,dp),helper(i,j-1,n,m,text1,text2,dp));
         }
-        return dp[i][j];
     }
     int longestCommonSubsequence(string text1, string text2) {
         int n = text1.size();
         int m = text2.size();
         vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-        return helper(n-1,m-1,text1,text2,dp);
+        return helper(n-1,m-1,n,m,text1,text2,dp);
     }
 };
