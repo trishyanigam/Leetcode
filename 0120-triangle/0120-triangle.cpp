@@ -1,18 +1,22 @@
 class Solution {
 public:
-    int helper(int r,int c,int n,vector<vector<int>>& triangle,vector<vector<int>>& dp)
+    int helper(int i,int j,int n,vector<vector<int>>& triangle,vector<vector<int>>& dp)
     {
-        if(r==n-1)
+        if(i==n-1)
         {
-            return triangle[r][c];
+            return triangle[i][j];
         }
-        if(dp[r][c]!=INT_MAX)
+        if(i<0 || j<0)
         {
-            return dp[r][c];
+            return INT_MAX;
         }
-        int down = triangle[r][c]+helper(r+1,c,n,triangle,dp);
-        int dia = triangle[r][c]+helper(r+1,c+1,n,triangle,dp);
-        return dp[r][c] = min(down,dia);
+        if(dp[i][j]!=INT_MAX)
+        {
+            return dp[i][j];
+        }
+        int down = helper(i+1,j,n,triangle,dp);
+        int dia = helper(i+1,j+1,n,triangle,dp);
+        return dp[i][j] = triangle[i][j]+min(down,dia);
     }
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size();
