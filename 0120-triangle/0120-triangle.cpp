@@ -6,10 +6,6 @@ public:
         {
             return triangle[i][j];
         }
-        if(i<0 || j<0)
-        {
-            return INT_MAX;
-        }
         if(dp[i][j]!=INT_MAX)
         {
             return dp[i][j];
@@ -20,7 +16,7 @@ public:
     }
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size();
-        vector<vector<int>>dp(n+1,vector<int>(n+1,INT_MAX));
+        vector<vector<int>>dp(n,vector<int>(n,INT_MAX));
         return helper(0,0,n,triangle,dp);
     }
 };
