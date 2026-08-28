@@ -2,13 +2,13 @@ class Solution {
 public:
     int helper(int i,int j,vector<vector<int>>& grid,vector<vector<int>>& dp)
     {
-        if(i==0 && j==0)
-        {
-            return grid[i][j];
-        }
         if(i<0 || j<0)
         {
             return INT_MAX;
+        }
+        if(i==0 && j==0)
+        {
+            return grid[i][j];
         }
         if(dp[i][j]!=-1)
         {
