@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int helper(int i,vector<int>& nums, int tar,vector<vector<int>>& dp)
+    int helper(int i,vector<int>& nums,int tar,vector<vector<int>>& dp)
     {
         if(i==0)
         {
@@ -24,17 +24,16 @@ public:
         {
             take = helper(i-1,nums,tar-nums[i],dp);
         }
-        dp[i][tar] = take+notTake;
-        return dp[i][tar];
+        return dp[i][tar] = take+notTake;
     }
     int findTargetSumWays(vector<int>& nums, int target) {
         int n = nums.size();
-        int totSum=0;
+        int totSum = 0;
         for(int x:nums)
         {
             totSum+=x;
         }
-        if(abs(target)>totSum || ((target+totSum)%2!=0))
+        if(totSum<abs(target) || (target+totSum)%2!=0)
         {
             return 0;
         }
