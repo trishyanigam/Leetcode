@@ -1,30 +1,29 @@
 class Solution {
 public:
-    int helper(int i,int j,string& s,vector<vector<int>>& dp)
+    int helper(int l,int r,string& s,vector<vector<int>>& dp)
     {
-        if(i>j)
+        if(l>r)
         {
             return 0;
         }
-        if(i==j)
+        if(l==r)
         {
             return 1;
         }
-        if(dp[i][j]!=-1)
+        if(dp[l][r]!=-1)
         {
-            return dp[i][j];
+            return dp[l][r];
         }
-        if(s[i]==s[j])
+        if(s[l]==s[r])
         {
-            dp[i][j] = 2+helper(i+1,j-1,s,dp);
+            return dp[l][r] = 2+helper(l+1,r-1,s,dp);
         }
         else
         {
-            int l = helper(i+1,j,s,dp);
-            int r = helper(i,j-1,s,dp);
-            dp[i][j] = max(l,r);
+            int op1 = helper(l+1,r,s,dp);
+            int op2 = helper(l,r-1,s,dp);
+            return dp[l][r] = max(op1,op2);
         }
-        return dp[i][j];
     }
     int longestPalindromeSubseq(string s) {
         int n = s.size();
