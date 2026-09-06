@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int helper(int i,int j,string& s, string& t,vector<vector<int>>& dp)
+    int helper(int i,int j,string& s,string& t,vector<vector<int>>& dp)
     {
         if(j<0)
         {
@@ -30,7 +30,8 @@ public:
     int numDistinct(string s, string t) {
         int n = s.size();
         int m = t.size();
-        vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
+        vector<vector<int>>dp(n,vector<int>(m,-1));
         return helper(n-1,m-1,s,t,dp);
+
     }
 };
