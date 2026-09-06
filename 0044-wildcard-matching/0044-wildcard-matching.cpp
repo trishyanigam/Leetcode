@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool helper(int i,int j,string& s, string& p,vector<vector<int>>& dp)
+    bool helper(int i,int j,string& s,string& p,vector<vector<int>>& dp)
     {
         if(i<0 && j<0)
         {
@@ -31,14 +31,14 @@ public:
         }
         if(p[j]=='*')
         {
-            return dp[i][j] =helper(i-1,j,s,p,dp) || helper(i,j-1,s,p,dp);
+            return dp[i][j] = helper(i-1,j,s,p,dp) || helper(i,j-1,s,p,dp);
         }
         return dp[i][j] = false;
     }
     bool isMatch(string s, string p) {
-        int m = s.size();
-        int n = p.size();
-        vector<vector<int>>dp(m+1,vector<int>(n+1,-1));
-        return helper(m-1,n-1,s,p,dp);
+        int n = s.size();
+        int m = p.size();
+        vector<vector<int>>dp(n,vector<int>(m,-1));
+        return helper(n-1,m-1,s,p,dp);
     }
 };
