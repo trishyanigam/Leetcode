@@ -8,7 +8,11 @@ public:
         }
         if(l==r)
         {
-            return 1;
+            if(s[l]==s[r])
+            {
+                return 1;
+            }
+            return 0;
         }
         if(dp[l][r]!=-1)
         {
@@ -20,14 +24,12 @@ public:
         }
         else
         {
-            int op1 = helper(l+1,r,s,dp);
-            int op2 = helper(l,r-1,s,dp);
-            return dp[l][r] = max(op1,op2);
+            return dp[l][r] = max(helper(l+1,r,s,dp),helper(l,r-1,s,dp));
         }
     }
     int longestPalindromeSubseq(string s) {
         int n = s.size();
-        vector<vector<int>>dp(n+1,vector<int>(n+1,-1));
+        vector<vector<int>>dp(n,vector<int>(n+1,-1));
         return helper(0,n-1,s,dp);
     }
 };
