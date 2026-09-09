@@ -6,7 +6,7 @@ public:
         {
             return 0;
         }
-        if(dp[i][prev+1]!=-1)
+        if(dp[i][prev+1] !=-1)
         {
             return dp[i][prev+1];
         }
