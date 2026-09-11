@@ -2,7 +2,7 @@ class Solution {
 public:
     int helper(int i,int prev,int n,vector<int>& nums,vector<vector<int>>& dp)
     {
-        if(i>=n)
+        if(i==n)
         {
             return 0;
         }
@@ -20,12 +20,12 @@ public:
     }
     vector<int> largestDivisibleSubset(vector<int>& nums) {
         int n = nums.size();
+        vector<int> ans;
         vector<vector<int>>dp(n,vector<int>(n+1,-1));
         sort(nums.begin(),nums.end());
+        helper(0,-1,n,nums,dp);
         int i=0;
         int prev=-1;
-        vector<int>ans;
-        helper(0,-1,n,nums,dp);
         while(i<n)
         {
             int notTake = helper(i+1,prev,n,nums,dp);
