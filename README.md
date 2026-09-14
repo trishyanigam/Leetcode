@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0992-subarrays-with-k-different-integers](https://github.com/trishyanigam/Leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [0994-rotting-oranges](https://github.com/trishyanigam/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/trishyanigam/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
+| [1043-partition-array-for-maximum-sum](https://github.com/trishyanigam/Leetcode/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1140-stone-game-ii](https://github.com/trishyanigam/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/trishyanigam/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1260-shift-2d-grid](https://github.com/trishyanigam/Leetcode/tree/main/1260-shift-2d-grid/) | Easy |
@@ -264,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0887-super-egg-drop](https://github.com/trishyanigam/Leetcode/tree/main/0887-super-egg-drop/) | Hard |
 | [0940-distinct-subsequences-ii](https://github.com/trishyanigam/Leetcode/tree/main/0940-distinct-subsequences-ii/) | Hard |
 | [0983-minimum-cost-for-tickets](https://github.com/trishyanigam/Leetcode/tree/main/0983-minimum-cost-for-tickets/) | Medium |
+| [1043-partition-array-for-maximum-sum](https://github.com/trishyanigam/Leetcode/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/trishyanigam/Leetcode/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1140-stone-game-ii](https://github.com/trishyanigam/Leetcode/tree/main/1140-stone-game-ii/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/trishyanigam/Leetcode/tree/main/1143-longest-common-subsequence/) | Medium |
