@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isPalindrome(int l,int r,string& s)
+    bool isPalin(int l,int r,string& s)
     {
         while(l<r)
         {
@@ -13,7 +13,7 @@ public:
         }
         return true;
     }
-    void helper(int st,int n,string &s,vector<string>& path,vector<vector<string>>& ans)
+    void helper(int st,int n,string& s,vector<string>& path,vector<vector<string>>& ans)
     {
         if(st==n)
         {
@@ -22,7 +22,7 @@ public:
         }
         for(int i=st;i<n;i++)
         {
-            if(isPalindrome(st,i,s))
+            if(isPalin(st,i,s))
             {
                 path.push_back(s.substr(st,i-st+1));
                 helper(i+1,n,s,path,ans);
@@ -32,8 +32,8 @@ public:
     }
     vector<vector<string>> partition(string s) {
         vector<vector<string>> ans;
-        vector<string>path;
         int n = s.size();
+        vector<string> path;
         helper(0,n,s,path,ans);
         return ans;
     }
