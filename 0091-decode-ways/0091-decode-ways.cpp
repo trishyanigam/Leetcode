@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int helper(int i,string s,int n,vector<int>&dp)
+    int helper(int i,int n,string& s,vector<int>& dp)
     {
         if(i==n)
         {
@@ -14,22 +14,20 @@ public:
         {
             return dp[i];
         }
-        int takeOne = helper(i+1,s,n,dp);
-        int takeTwo = 0;
+        int way = helper(i+1,n,s,dp);
         if(i+1<n)
         {
             int num = (s[i]-'0')*10+(s[i+1]-'0');
             if(num>=10 && num<=26)
             {
-                takeTwo = helper(i+2,s,n,dp);
+                way+=helper(i+2,n,s,dp);
             }
         }
-        dp[i]=takeOne+takeTwo;
-        return dp[i];
+        return dp[i] = way;
     }
     int numDecodings(string s) {
         int n = s.size();
-        vector<int>dp(n+1,-1);
-        return helper(0,s,n,dp);
+        vector<int>dp(n,-1);
+        return helper(0,n,s,dp);
     }
 };
