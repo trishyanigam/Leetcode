@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void helper(int open,int close, int n,string &path,vector<string> &ans)
+    void helper(int open,int close,int n,string &path,vector<string>& ans)
     {
         if(path.size()==2*n)
         {
@@ -21,8 +21,8 @@ public:
         }
     }
     vector<string> generateParenthesis(int n) {
-        vector<string> ans;
         string path = "";
+        vector<string> ans;
         helper(0,0,n,path,ans);
         return ans;
     }
