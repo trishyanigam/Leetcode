@@ -377,6 +377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/trishyanigam/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0721-accounts-merge](https://github.com/trishyanigam/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0796-rotate-string](https://github.com/trishyanigam/Leetcode/tree/main/0796-rotate-string/) | Easy |
+| [0856-score-of-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0856-score-of-parentheses/) | Medium |
 | [0940-distinct-subsequences-ii](https://github.com/trishyanigam/Leetcode/tree/main/0940-distinct-subsequences-ii/) | Hard |
 | [0981-time-based-key-value-store](https://github.com/trishyanigam/Leetcode/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/1021-remove-outermost-parentheses/) | Easy |
@@ -1137,6 +1138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/trishyanigam/Leetcode/tree/main/0735-asteroid-collision/) | Medium |
 | [0739-daily-temperatures](https://github.com/trishyanigam/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/trishyanigam/Leetcode/tree/main/0853-car-fleet/) | Medium |
+| [0856-score-of-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0856-score-of-parentheses/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/trishyanigam/Leetcode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
@@ -1280,6 +1282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0022-generate-parentheses/) | Medium |
+| [0856-score-of-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/0856-score-of-parentheses/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/trishyanigam/Leetcode/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 ## Knapsack Problem
 | Problem Name | Difficulty |
