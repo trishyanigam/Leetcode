@@ -13,11 +13,11 @@ public:
             {
                 if(height[l]>lmax)
                 {
-                    lmax = height[l];
+                    lmax=height[l];
                 }
                 else
                 {
-                    ans += lmax-height[l];
+                    ans+=lmax-height[l];
                 }
                 l++;
             }
@@ -25,11 +25,11 @@ public:
             {
                 if(height[r]>rmax)
                 {
-                    rmax = height[r];
+                    rmax=height[r];
                 }
                 else
                 {
-                    ans+= rmax-height[r];
+                    ans+=rmax-height[r];
                 }
                 r--;
             }
