@@ -2,26 +2,22 @@ class Solution {
 public:
     int atMost(vector<int>& nums,int k)
     {
-        int l=0;
         unordered_map<int,int>mp;
         int ans = 0;
+        int l = 0;
         for(int r=0;r<nums.size();r++)
         {
-            if(mp[nums[r]]==0)
-            {
-                k--;
-            }
             mp[nums[r]]++;
-            while(k<0)
+            while(mp.size()>k)
             {
                 mp[nums[l]]--;
                 if(mp[nums[l]]==0)
                 {
-                    k++;
+                    mp.erase(nums[l]);
                 }
                 l++;
             }
-            ans+=(r-l+1);
+            ans+=r-l+1;
         }
         return ans;
     }
