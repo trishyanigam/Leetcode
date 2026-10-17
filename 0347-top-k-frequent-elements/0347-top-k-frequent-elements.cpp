@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        vector<int>ans;
+        int n = nums.size();
         unordered_map<int,int>mp;
         for(int x:nums)
         {
@@ -16,6 +16,7 @@ public:
                 pq.pop();
             }
         }
+        vector<int>ans;
         while(!pq.empty())
         {
             ans.push_back(pq.top().second);
