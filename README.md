@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0417-pacific-atlantic-water-flow](https://github.com/trishyanigam/Leetcode/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/trishyanigam/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/trishyanigam/Leetcode/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/trishyanigam/Leetcode/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0455-assign-cookies](https://github.com/trishyanigam/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/trishyanigam/Leetcode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0493-reverse-pairs](https://github.com/trishyanigam/Leetcode/tree/main/0493-reverse-pairs/) | Hard |
@@ -668,6 +669,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/trishyanigam/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0371-sum-of-two-integers](https://github.com/trishyanigam/Leetcode/tree/main/0371-sum-of-two-integers/) | Medium |
 | [0396-rotate-function](https://github.com/trishyanigam/Leetcode/tree/main/0396-rotate-function/) | Medium |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/trishyanigam/Leetcode/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0509-fibonacci-number](https://github.com/trishyanigam/Leetcode/tree/main/0509-fibonacci-number/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/trishyanigam/Leetcode/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/trishyanigam/Leetcode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
