@@ -199,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/trishyanigam/Leetcode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3312-sorted-gcd-pair-queries](https://github.com/trishyanigam/Leetcode/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 | [3331-find-subtree-sizes-after-changes](https://github.com/trishyanigam/Leetcode/tree/main/3331-find-subtree-sizes-after-changes/) | Medium |
+| [3411-maximum-subarray-with-equal-products](https://github.com/trishyanigam/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/trishyanigam/Leetcode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/trishyanigam/Leetcode/tree/main/3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/trishyanigam/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
@@ -538,6 +539,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1871-jump-game-vii](https://github.com/trishyanigam/Leetcode/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/trishyanigam/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/trishyanigam/Leetcode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
+| [3411-maximum-subarray-with-equal-products](https://github.com/trishyanigam/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/trishyanigam/Leetcode/tree/main/3420-count-non-decreasing-subarrays-after-k-operations/) | Hard |
 ## Rolling Hash
 | Problem Name | Difficulty |
@@ -706,6 +708,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3312-sorted-gcd-pair-queries](https://github.com/trishyanigam/Leetcode/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 | [3345-smallest-divisible-digit-product-i](https://github.com/trishyanigam/Leetcode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/trishyanigam/Leetcode/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
+| [3411-maximum-subarray-with-equal-products](https://github.com/trishyanigam/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/trishyanigam/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3524-find-x-value-of-array-i](https://github.com/trishyanigam/Leetcode/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3536-maximum-product-of-two-digits](https://github.com/trishyanigam/Leetcode/tree/main/3536-maximum-product-of-two-digits/) | Easy |
@@ -1200,6 +1203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2778-sum-of-squares-of-special-elements](https://github.com/trishyanigam/Leetcode/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/trishyanigam/Leetcode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3345-smallest-divisible-digit-product-i](https://github.com/trishyanigam/Leetcode/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
+| [3411-maximum-subarray-with-equal-products](https://github.com/trishyanigam/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/trishyanigam/Leetcode/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/trishyanigam/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/trishyanigam/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -1285,6 +1289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [3312-sorted-gcd-pair-queries](https://github.com/trishyanigam/Leetcode/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/trishyanigam/Leetcode/tree/main/3348-smallest-divisible-digit-product-ii/) | Hard |
+| [3411-maximum-subarray-with-equal-products](https://github.com/trishyanigam/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/trishyanigam/Leetcode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
