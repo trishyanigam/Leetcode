@@ -241,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3903-smallest-stable-index-i](https://github.com/trishyanigam/Leetcode/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3934-smallest-unique-subarray](https://github.com/trishyanigam/Leetcode/tree/main/3934-smallest-unique-subarray/) | Hard |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/trishyanigam/Leetcode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/trishyanigam/Leetcode/tree/main/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -669,6 +670,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3689-maximum-total-subarray-value-i](https://github.com/trishyanigam/Leetcode/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
 | [3691-maximum-total-subarray-value-ii](https://github.com/trishyanigam/Leetcode/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/trishyanigam/Leetcode/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/trishyanigam/Leetcode/tree/main/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1034,6 +1036,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/trishyanigam/Leetcode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3731-find-missing-elements](https://github.com/trishyanigam/Leetcode/tree/main/3731-find-missing-elements/) | Easy |
 | [3886-sum-of-sortable-integers](https://github.com/trishyanigam/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/trishyanigam/Leetcode/tree/main/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1059,6 +1062,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/trishyanigam/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3620-network-recovery-pathways](https://github.com/trishyanigam/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 | [3691-maximum-total-subarray-value-ii](https://github.com/trishyanigam/Leetcode/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/trishyanigam/Leetcode/tree/main/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
